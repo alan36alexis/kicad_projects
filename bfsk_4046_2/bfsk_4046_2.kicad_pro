@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bfsk_4046.kicad_pro",
+    "filename": "bfsk_4046_2.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -312,6 +312,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -324,7 +332,7 @@
   },
   "sheets": [
     [
-      "9dcd1980-5a1a-4070-88e4-d468275f3ef1",
+      "d5148e0b-3134-42ff-aad3-d56b7c57352a",
       ""
     ]
   ],
