@@ -1,0 +1,17 @@
+"Id";"Identificador";"Huella";"Cantidad";"Identificación";"Suministrador y ref";
+1;"R1,R4";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";2;"12K";;;
+2;"J2";"TerminalBlock_bornier-2_P5.08mm";1;"Entrada de Señal";;;
+3;"J3";"TerminalBlock_bornier-2_P5.08mm";1;"Salida de señal";;;
+4;"R2";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"100K";;;
+5;"C2,C1";"CP_Radial_D8.0mm_P5.00mm";2;"1u";;;
+6;"R5";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"47K";;;
+7;"R3";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"39K";;;
+8;"Q1";"TO-220-3_Vertical";1;"TIP41";;;
+9;"D2,D1";"D_DO-201AD_P15.24mm_Horizontal";2;"1N5408";;;
+10;"C5,C6,C4";"C_Disc_D4.7mm_W2.5mm_P5.00mm";3;"100n";;;
+11;"D6,D5";"D_DO-41_SOD81_P10.16mm_Horizontal";2;"1N4007";;;
+12;"J1";"TerminalBlock_bornier-3_P5.08mm";1;"Entrada de alimentación";;;
+13;"D4,D3";"D_DO-35_SOD27_P7.62mm_Horizontal";2;"1N4148";;;
+14;"C3";"C_Disc_D4.7mm_W2.5mm_P5.00mm";1;"15p";;;
+15;"U1";"DIP-8_W7.62mm_Socket";1;"LM741";;;
+16;"Q2";"TO-220-3_Vertical";1;"TIP42";;;
