@@ -215,138 +215,6 @@
         )
       )
     )
-    (symbol "Amplifier_Operational:LM324" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "LM324" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at -1.27 2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" (at 1.27 5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "quad opamp" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "LM324_1_1"
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "LM324_2_1"
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin input line (at -7.62 2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "LM324_3_1"
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin input line (at -7.62 2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "LM324_4_1"
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin input line (at -7.62 2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "12" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "14" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "LM324_5_1"
-        (pin power_in line (at -2.54 -7.62 90) (length 3.81)
-          (name "V-" (effects (font (size 1.27 1.27))))
-          (number "11" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -2.54 7.62 270) (length 3.81)
-          (name "V+" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Amplifier_Operational:LM358" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -1948,7 +1816,7 @@
   (junction (at 266.7 114.3) (diameter 0) (color 0 0 0 0)
     (uuid 02363afa-2f5a-467c-ab72-3e761c3adcf7)
   )
-  (junction (at 64.77 73.025) (diameter 0) (color 0 0 0 0)
+  (junction (at 347.98 50.165) (diameter 0) (color 0 0 0 0)
     (uuid 031f05a0-bfd3-4897-9035-9ce9b68d3e9d)
   )
   (junction (at 269.875 94.615) (diameter 0) (color 0 0 0 0)
@@ -1981,13 +1849,16 @@
   (junction (at 41.91 107.315) (diameter 0) (color 0 0 0 0)
     (uuid 45752dd7-9844-47a8-b911-8f1f0abe87e4)
   )
+  (junction (at 383.54 34.29) (diameter 0) (color 0 0 0 0)
+    (uuid 491924a3-133a-444a-8346-a7bae0c19435)
+  )
   (junction (at 41.91 117.475) (diameter 0) (color 0 0 0 0)
     (uuid 49ceae0f-a329-4455-80cf-e1b332db35a6)
   )
   (junction (at 232.41 102.235) (diameter 0) (color 0 0 0 0)
     (uuid 51db3bd7-4527-4325-9c44-52165acb2744)
   )
-  (junction (at 60.96 57.785) (diameter 0) (color 0 0 0 0)
+  (junction (at 344.17 34.925) (diameter 0) (color 0 0 0 0)
     (uuid 53aba31b-59e9-4d6f-a191-8b0f4c5daa46)
   )
   (junction (at 232.41 121.92) (diameter 0) (color 0 0 0 0)
@@ -2002,6 +1873,9 @@
   (junction (at 285.75 114.3) (diameter 0) (color 0 0 0 0)
     (uuid 666f0528-3cc1-4849-8be7-ba092eb39f01)
   )
+  (junction (at 383.54 49.53) (diameter 0) (color 0 0 0 0)
+    (uuid 6faa6100-0ae8-4de0-90bf-17162b754e32)
+  )
   (junction (at 50.165 240.03) (diameter 0) (color 0 0 0 0)
     (uuid 77e8ad45-ff8b-48b7-8cb7-4bf838ada423)
   )
@@ -2014,7 +1888,7 @@
   (junction (at 287.02 204.47) (diameter 0) (color 0 0 0 0)
     (uuid 8da754fa-2106-45aa-a51b-a75f284fbfa8)
   )
-  (junction (at 60.96 73.025) (diameter 0) (color 0 0 0 0)
+  (junction (at 344.17 50.165) (diameter 0) (color 0 0 0 0)
     (uuid 8e5ffc8c-b478-4fc1-a414-26016e4cc063)
   )
   (junction (at 267.97 214.63) (diameter 0) (color 0 0 0 0)
@@ -2056,7 +1930,7 @@
   (junction (at 266.7 124.46) (diameter 0) (color 0 0 0 0)
     (uuid ca739c54-0984-4928-bce0-c1479931b4b2)
   )
-  (junction (at 64.77 57.785) (diameter 0) (color 0 0 0 0)
+  (junction (at 347.98 34.925) (diameter 0) (color 0 0 0 0)
     (uuid ca9af6f5-ab03-4afc-bbac-4ce4c4583c46)
   )
   (junction (at 275.59 187.96) (diameter 0) (color 0 0 0 0)
@@ -2115,6 +1989,10 @@
   (wire (pts (xy 315.595 224.155) (xy 315.595 226.06))
     (stroke (width 0) (type default))
     (uuid 06951e56-624e-4bdc-9d2e-77ae301995d7)
+  )
+  (wire (pts (xy 379.73 34.29) (xy 379.73 38.1))
+    (stroke (width 0) (type default))
+    (uuid 0786f725-b7e8-4811-8bcc-2a15d1d7004f)
   )
   (wire (pts (xy 168.91 151.765) (xy 171.45 151.765))
     (stroke (width 0) (type default))
@@ -2189,7 +2067,7 @@
     (stroke (width 0) (type default))
     (uuid 16c17e31-b65d-4a43-bd5c-c60f494ddd8b)
   )
-  (wire (pts (xy 60.96 69.215) (xy 60.96 73.025))
+  (wire (pts (xy 344.17 46.355) (xy 344.17 50.165))
     (stroke (width 0) (type default))
     (uuid 19814096-8f22-40f9-8fd2-5d118e950a68)
   )
@@ -2245,7 +2123,7 @@
     (stroke (width 0) (type default))
     (uuid 27315c71-4810-4d42-964f-cc3a0c59779e)
   )
-  (wire (pts (xy 64.77 57.785) (xy 68.58 57.785))
+  (wire (pts (xy 347.98 34.925) (xy 351.79 34.925))
     (stroke (width 0) (type default))
     (uuid 27634d58-fcb5-4803-906c-4cd00f5ec3b4)
   )
@@ -2265,7 +2143,7 @@
     (stroke (width 0) (type default))
     (uuid 2a85f19f-56b3-4527-b8d9-5387132f6ad6)
   )
-  (wire (pts (xy 68.58 57.785) (xy 68.58 61.595))
+  (wire (pts (xy 351.79 34.925) (xy 351.79 38.735))
     (stroke (width 0) (type default))
     (uuid 2b266ff1-9310-4015-a592-5537bbe3d9e5)
   )
@@ -2320,6 +2198,10 @@
   (wire (pts (xy 168.91 197.485) (xy 173.99 197.485))
     (stroke (width 0) (type default))
     (uuid 37c0d67a-c9ef-43b9-807c-ec2f0836f00d)
+  )
+  (wire (pts (xy 137.16 133.985) (xy 139.7 133.985))
+    (stroke (width 0) (type default))
+    (uuid 389f81e7-9bac-4171-a001-75eb6b08d37b)
   )
   (wire (pts (xy 249.555 192.405) (xy 256.54 192.405))
     (stroke (width 0) (type default))
@@ -2482,10 +2364,6 @@
     (stroke (width 0) (type default))
     (uuid 6a28b48f-476b-4746-8914-cb98d1c53d42)
   )
-  (wire (pts (xy 137.16 126.365) (xy 139.7 126.365))
-    (stroke (width 0) (type default))
-    (uuid 6adff7c8-0c89-4a6e-9240-10a8fe010725)
-  )
   (wire (pts (xy 50.8 182.245) (xy 49.53 182.245))
     (stroke (width 0) (type default))
     (uuid 6e0c9ca9-728b-47f0-9df4-2cf297d02826)
@@ -2517,6 +2395,10 @@
   (wire (pts (xy 232.41 82.55) (xy 232.41 89.535))
     (stroke (width 0) (type default))
     (uuid 76579398-5457-4789-b793-c8c8ca16d5e7)
+  )
+  (wire (pts (xy 137.16 130.175) (xy 139.7 130.175))
+    (stroke (width 0) (type default))
+    (uuid 77ab5eba-431c-4c55-8155-5d6716bd17be)
   )
   (wire (pts (xy 171.45 149.225) (xy 173.99 149.225))
     (stroke (width 0) (type default))
@@ -2570,9 +2452,13 @@
     (stroke (width 0) (type default))
     (uuid 816fc04f-2da3-4d0f-afe0-3d9015446bc9)
   )
-  (wire (pts (xy 68.58 69.215) (xy 68.58 73.025))
+  (wire (pts (xy 351.79 46.355) (xy 351.79 50.165))
     (stroke (width 0) (type default))
     (uuid 82c12ea5-508d-40ca-ad51-915b291d2dcf)
+  )
+  (wire (pts (xy 387.35 45.72) (xy 387.35 49.53))
+    (stroke (width 0) (type default))
+    (uuid 83266be8-616d-411e-b3e1-a80872fb87f0)
   )
   (wire (pts (xy 233.68 212.09) (xy 247.65 212.09))
     (stroke (width 0) (type default))
@@ -2586,7 +2472,7 @@
     (stroke (width 0) (type default))
     (uuid 887a94c9-c194-41ce-8b16-07c68e0fec73)
   )
-  (wire (pts (xy 60.96 57.785) (xy 64.77 57.785))
+  (wire (pts (xy 344.17 34.925) (xy 347.98 34.925))
     (stroke (width 0) (type default))
     (uuid 89d01b55-fccc-4de4-9361-0f7a98478158)
   )
@@ -2638,7 +2524,11 @@
     (stroke (width 0) (type default))
     (uuid 9575aae6-464b-4378-9e97-ed05748a4af0)
   )
-  (wire (pts (xy 64.77 73.025) (xy 68.58 73.025))
+  (wire (pts (xy 379.73 49.53) (xy 383.54 49.53))
+    (stroke (width 0) (type default))
+    (uuid 95cf0177-c6f5-4497-8404-24203e6f97b7)
+  )
+  (wire (pts (xy 347.98 50.165) (xy 351.79 50.165))
     (stroke (width 0) (type default))
     (uuid 9623f630-aeeb-4819-900a-d08316ce59c2)
   )
@@ -2654,7 +2544,7 @@
     (stroke (width 0) (type default))
     (uuid 96cfbb72-928f-47d2-b38c-daabc430071d)
   )
-  (wire (pts (xy 60.96 57.785) (xy 60.96 61.595))
+  (wire (pts (xy 344.17 34.925) (xy 344.17 38.735))
     (stroke (width 0) (type default))
     (uuid 976ba5f9-636b-4294-bf32-9f82acc289e0)
   )
@@ -2706,6 +2596,10 @@
     (stroke (width 0) (type default))
     (uuid a3d29725-54ce-4706-b39d-725dca984caf)
   )
+  (wire (pts (xy 323.215 55.245) (xy 332.74 55.245))
+    (stroke (width 0) (type default))
+    (uuid a4012547-905a-4863-b094-b7ff8c060f3b)
+  )
   (wire (pts (xy 262.89 114.3) (xy 266.7 114.3))
     (stroke (width 0) (type default))
     (uuid a40ec4e7-8e92-441d-9ac5-10e9446fd654)
@@ -2714,9 +2608,13 @@
     (stroke (width 0) (type default))
     (uuid a4949f0a-afba-4178-a6ba-c0471d0bf9d6)
   )
-  (wire (pts (xy 137.16 133.985) (xy 139.7 133.985))
+  (wire (pts (xy 332.74 55.245) (xy 332.74 50.165))
     (stroke (width 0) (type default))
-    (uuid aaadb349-29db-44f8-972b-60b949f39e6a)
+    (uuid a66894fc-bdbe-4329-801d-b66b82e7db73)
+  )
+  (wire (pts (xy 379.73 34.29) (xy 383.54 34.29))
+    (stroke (width 0) (type default))
+    (uuid a69fefea-e2c4-4e8e-9d88-eb568c8a86ad)
   )
   (wire (pts (xy 168.91 161.925) (xy 173.99 161.925))
     (stroke (width 0) (type default))
@@ -2729,6 +2627,10 @@
   (wire (pts (xy 340.995 207.01) (xy 344.805 207.01))
     (stroke (width 0) (type default))
     (uuid ac247030-eac4-49e0-a79b-e874b6b620f5)
+  )
+  (wire (pts (xy 383.54 49.53) (xy 387.35 49.53))
+    (stroke (width 0) (type default))
+    (uuid ac3fbb84-d67d-4b94-8ba3-6b7c4d30bb68)
   )
   (wire (pts (xy 255.27 179.705) (xy 267.97 179.705))
     (stroke (width 0) (type default))
@@ -2745,6 +2647,10 @@
   (wire (pts (xy 187.96 29.21) (xy 177.8 29.21))
     (stroke (width 0) (type default))
     (uuid b379a13a-26f2-40d8-9f2b-09e727605c13)
+  )
+  (wire (pts (xy 323.215 29.845) (xy 332.74 29.845))
+    (stroke (width 0) (type default))
+    (uuid b4bafbf5-5d06-4ede-a481-f57602c94e2b)
   )
   (wire (pts (xy 262.89 102.235) (xy 266.7 102.235))
     (stroke (width 0) (type default))
@@ -2778,7 +2684,7 @@
     (stroke (width 0) (type default))
     (uuid b98fa203-2636-43ba-92b2-dedc259cc536)
   )
-  (wire (pts (xy 49.53 73.025) (xy 60.96 73.025))
+  (wire (pts (xy 332.74 50.165) (xy 344.17 50.165))
     (stroke (width 0) (type default))
     (uuid ba30a9b3-4ae5-4e6c-a2a4-c7b0b61623b8)
   )
@@ -2864,6 +2770,10 @@
     (stroke (width 0) (type default))
     (uuid d13cd24c-2105-4933-8d89-dc5e9e520b39)
   )
+  (wire (pts (xy 137.16 126.365) (xy 139.7 126.365))
+    (stroke (width 0) (type default))
+    (uuid d1a61603-3d27-4759-810e-2cc3744d1a76)
+  )
   (wire (pts (xy 48.26 116.205) (xy 48.26 117.475))
     (stroke (width 0) (type default))
     (uuid d2101996-cbba-45a7-956c-ae4a5b91d1d3)
@@ -2876,6 +2786,10 @@
     (stroke (width 0) (type default))
     (uuid d3ca09c1-08ac-42c9-9781-50a18f527fcf)
   )
+  (wire (pts (xy 387.35 34.29) (xy 387.35 38.1))
+    (stroke (width 0) (type default))
+    (uuid d3fca160-1c32-4d8c-a747-39928dcc795d)
+  )
   (wire (pts (xy 275.59 97.79) (xy 280.035 97.79))
     (stroke (width 0) (type default))
     (uuid d6f5d43f-b9d5-4404-ad87-8ce00fc949de)
@@ -2883,10 +2797,6 @@
   (wire (pts (xy 50.8 128.905) (xy 49.53 128.905))
     (stroke (width 0) (type default))
     (uuid d946f740-ceee-4bfb-b530-8434e2830c23)
-  )
-  (wire (pts (xy 137.16 130.175) (xy 139.7 130.175))
-    (stroke (width 0) (type default))
-    (uuid da568d06-8066-418e-8788-3842724a967a)
   )
   (wire (pts (xy 140.97 156.845) (xy 147.32 156.845))
     (stroke (width 0) (type default))
@@ -2928,7 +2838,11 @@
     (stroke (width 0) (type default))
     (uuid e4a6fbf1-587d-4d3e-9fe2-a14a9db50c01)
   )
-  (wire (pts (xy 49.53 57.785) (xy 60.96 57.785))
+  (wire (pts (xy 383.54 34.29) (xy 387.35 34.29))
+    (stroke (width 0) (type default))
+    (uuid e4e5b63c-8207-4fa9-9b69-f993d17d6931)
+  )
+  (wire (pts (xy 332.74 34.925) (xy 344.17 34.925))
     (stroke (width 0) (type default))
     (uuid e604d985-4e7b-4430-9a1d-05cf8e58e474)
   )
@@ -2948,7 +2862,7 @@
     (stroke (width 0) (type default))
     (uuid e9c9c603-6975-4645-8c8c-af6a19ed5cb8)
   )
-  (wire (pts (xy 60.96 73.025) (xy 64.77 73.025))
+  (wire (pts (xy 344.17 50.165) (xy 347.98 50.165))
     (stroke (width 0) (type default))
     (uuid eaa808a4-ff01-48d1-b76b-caa706083fd4)
   )
@@ -3012,6 +2926,10 @@
     (stroke (width 0) (type default))
     (uuid f872eb07-5a31-42d3-abf3-cb3ba64c80e4)
   )
+  (wire (pts (xy 332.74 29.845) (xy 332.74 34.925))
+    (stroke (width 0) (type default))
+    (uuid f8da1252-8177-4d1c-a93b-5f949bbea68e)
+  )
   (wire (pts (xy 232.41 121.92) (xy 246.38 121.92))
     (stroke (width 0) (type default))
     (uuid f92aa7af-cd0c-4d99-bb45-c29f930e4782)
@@ -3035,6 +2953,10 @@
   (wire (pts (xy 287.02 214.63) (xy 287.02 215.9))
     (stroke (width 0) (type default))
     (uuid fdf3fc0c-dae2-4e28-ad3d-ba2a4970c1e8)
+  )
+  (wire (pts (xy 379.73 45.72) (xy 379.73 49.53))
+    (stroke (width 0) (type default))
+    (uuid ffc75a08-1a9a-42df-b5b7-5c4adeca0981)
   )
   (wire (pts (xy 271.78 184.785) (xy 281.305 184.785))
     (stroke (width 0) (type default))
@@ -3627,23 +3549,23 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 68.58 65.405 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 351.79 42.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0317ddf5-847d-43b2-9cad-58612dfd5329)
-    (property "Reference" "C26" (at 69.85 62.865 0)
+    (property "Reference" "C26" (at 353.06 40.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2.2n" (at 69.85 67.945 0)
+    (property "Value" "2.2n" (at 353.06 45.085 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (at 69.5452 69.215 0)
+    (property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (at 352.7552 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 68.58 65.405 0)
+    (property "Datasheet" "~" (at 351.79 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0159a7df-b3f2-4e6a-8ee9-7cbba4a47039))
-    (pin "2" (uuid f50687df-9c16-4854-bdcf-69c70ca03a87))
+    (pin "1" (uuid 544eb443-a704-4758-ae57-4f6e14e79294))
+    (pin "2" (uuid 609476c4-9647-4040-89e5-9b93548a3cdb))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -3683,7 +3605,7 @@
     (property "Datasheet" "" (at 173.99 149.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0b55ef66-849e-45cc-abe9-74f84cddf779))
+    (pin "1" (uuid e8ea856c-d60c-496d-b264-80c8f192a310))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -3723,7 +3645,7 @@
     (property "Datasheet" "" (at 246.38 226.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d163e3c4-b978-4448-b84e-7bec4b4b6658))
+    (pin "1" (uuid ac06d89f-cb19-4660-bf6f-613a11f12fcf))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -3748,7 +3670,7 @@
     (property "Datasheet" "~" (at 330.835 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ec16de05-7086-4aa9-84c7-fcaba7a29528))
+    (pin "1" (uuid d1414a32-b232-43b1-a411-ac52ddd996f0))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -3767,14 +3689,14 @@
     (property "Value" "10k" (at 337.185 201.93 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 336.423 200.66 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 336.423 200.66 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 334.645 200.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6cee288c-33bc-47c1-806d-b1088f99b9c7))
-    (pin "2" (uuid bd41a81e-125d-4a74-8235-07367a1748ab))
+    (pin "1" (uuid bf168fac-cca4-42a5-b8a4-248d90da5417))
+    (pin "2" (uuid 0c1116ca-2dd7-4b1c-9b5c-184268163617))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -3799,26 +3721,26 @@
     (property "Datasheet" "~" (at 163.83 174.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 98c15038-bba0-4774-ba81-c0734b0dd5d2))
-    (pin "10" (uuid 73ce8dc1-c0d2-4c21-9491-44f169049256))
-    (pin "11" (uuid 4ae9e9fa-d731-4721-b060-810e31b05495))
-    (pin "12" (uuid 3fb65475-a72e-49af-bd73-994b282ee075))
-    (pin "13" (uuid 264216eb-e059-4815-b63e-bcd65a4ca81b))
-    (pin "14" (uuid 55a6f3e0-7339-4106-86c3-202111eea948))
-    (pin "15" (uuid 4756c940-1c1e-4846-bbba-cd60cca746e8))
-    (pin "16" (uuid 64cecd64-54d6-46e4-b4f9-7f7ed3ae5050))
-    (pin "17" (uuid 4608ccfe-e670-4785-a45f-a1a537521f1b))
-    (pin "18" (uuid 798b2744-9f0a-4fdb-9731-82fde88ecc35))
-    (pin "19" (uuid f1a06b12-2aaa-4fa4-a4e9-b28167de18e9))
-    (pin "2" (uuid a731a9b4-1447-48f1-a5a1-221e6a5531ce))
-    (pin "20" (uuid 9d4b69a0-aa02-4bc5-b955-f953956b596d))
-    (pin "3" (uuid 0e51b07d-6755-4ba1-9cd1-9c24ab22163b))
-    (pin "4" (uuid 0fb0eab1-b138-419e-b97e-89e5849ca842))
-    (pin "5" (uuid 8388713d-a833-4a9f-91d8-3f64bcbfa5f4))
-    (pin "6" (uuid d95d723b-da0b-48d8-bb50-c8615786e26d))
-    (pin "7" (uuid 08998eaa-c1c5-4e8b-b0df-8635279410fa))
-    (pin "8" (uuid 5f2c31cd-4764-4575-9e02-0e0c595f2314))
-    (pin "9" (uuid d942a50b-c0aa-4cde-9a15-6f95fd52f453))
+    (pin "1" (uuid dd054cf6-ffdc-4e0a-a7c0-3ac2c354820e))
+    (pin "10" (uuid ab756013-2fb0-4962-b9f9-dde671546af3))
+    (pin "11" (uuid 80ce34d0-d8a5-47f4-ad4a-e6b6d313620f))
+    (pin "12" (uuid 8bb46a97-f27c-4b39-a64d-48892a2bb4e6))
+    (pin "13" (uuid 2d5e8e02-7de1-48ad-b7c9-50b70095281a))
+    (pin "14" (uuid 4abbe657-11d5-4f09-a5cf-5f3b0c93e635))
+    (pin "15" (uuid ecc1f06a-f112-4a31-b62d-a451ccc021ef))
+    (pin "16" (uuid f4fa78c5-74d7-4367-8358-569fd7ee2f51))
+    (pin "17" (uuid 6aa9dac1-709d-43a1-b314-f32e6a7bbae0))
+    (pin "18" (uuid 6a8f1486-cfc7-4251-b5e6-0ff741e02772))
+    (pin "19" (uuid e28f1d77-7085-4d7b-8574-6e5e4fbb8d91))
+    (pin "2" (uuid 0bedba4b-c71d-4650-8b16-b4d9dd908052))
+    (pin "20" (uuid 4c0a519e-fcb9-4029-97c1-076049fae29e))
+    (pin "3" (uuid ea565ce3-d6df-4788-821b-b0c59aad0925))
+    (pin "4" (uuid b15ab3bd-6ab1-454c-b158-4deaaeb6ffa7))
+    (pin "5" (uuid b56cd1d9-2407-40cb-ba3a-d56f87d2bb52))
+    (pin "6" (uuid 7c85f4dd-3470-4bb2-bd52-a12785f39b23))
+    (pin "7" (uuid 89adcd04-14cf-472c-be0d-fecdce04c6c8))
+    (pin "8" (uuid cd3d524f-55ea-48e5-a9ef-9100d09a2802))
+    (pin "9" (uuid 00cc63c3-64d8-45ea-a179-691d0e8daba0))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -3833,6 +3755,42 @@
     )
   )
 
+  (symbol (lib_id "Device:C_Polarized") (at 379.73 41.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0e107859-affb-4eb8-bbbb-509d7f6055ca)
+    (property "Reference" "C25" (at 374.65 39.37 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "C_Polarized" (at 367.03 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm" (at 380.6952 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 379.73 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0aefe9f8-8480-414e-a10a-2b1a074b98ac))
+    (pin "2" (uuid 1a4cb340-1d31-4c76-9285-b24c80cf950d))
+    (instances
+      (project "vlc_communication_simplified"
+        (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
+          (reference "C25") (unit 1)
+        )
+      )
+      (project "proj_td3"
+        (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
+          (reference "C7") (unit 1)
+        )
+      )
+      (project "bfsk_4046_2"
+        (path "/d5148e0b-3134-42ff-aad3-d56b7c57352a"
+          (reference "C6") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 298.45 130.175 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f4f1deb-2fd5-4101-8107-d1acfb25ae1b)
@@ -3842,14 +3800,14 @@
     (property "Value" "1k" (at 298.45 126.365 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 298.45 131.953 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 298.45 131.953 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 298.45 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 41e837a7-c1ed-49ea-9360-c3fd1108fce1))
-    (pin "2" (uuid fb5b3632-df5d-4d7e-b236-2ea29ee3d1f4))
+    (pin "1" (uuid 94688698-3168-4725-a7ee-085c92192335))
+    (pin "2" (uuid b93acd74-5128-45c5-9107-8171cf6ac14f))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -3874,7 +3832,7 @@
     (property "Datasheet" "" (at 140.97 192.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 85020865-3233-4431-9502-00f992ca935d))
+    (pin "1" (uuid 52d121ec-94c8-4082-a000-eb82f66d0e1f))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -3914,8 +3872,8 @@
     (property "Datasheet" "~" (at 41.91 169.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid da97ee00-3959-43f3-87d1-f49250ba2c18))
-    (pin "2" (uuid 1c82e0e7-441f-4084-9463-50a227d3845d))
+    (pin "1" (uuid f460feef-0a93-421b-9da7-a03b0c692d70))
+    (pin "2" (uuid 4395c223-b8b4-4a2f-a87c-33db6d96079d))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -3939,14 +3897,14 @@
     (property "Value" "100k" (at 337.185 222.25 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 336.423 220.98 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 336.423 220.98 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 334.645 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 78da9fd5-3dce-4bc5-93ca-7d2378f68598))
-    (pin "2" (uuid ab001d15-2c63-483a-8c7b-b04ec38a5750))
+    (pin "1" (uuid 24be8052-6281-41e3-a296-253406209f13))
+    (pin "2" (uuid a8bb658b-8c7b-4f75-905e-0ac6f75dd6bd))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -3971,7 +3929,7 @@
     (property "Datasheet" "~" (at 302.895 226.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid afbbd674-1933-45f7-b62b-91e337e91bc3))
+    (pin "1" (uuid d220b0e2-ee83-4f9c-a096-da320c99df5c))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -3996,7 +3954,7 @@
     (property "Datasheet" "~" (at 292.1 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 12919326-3c91-496e-bbb4-2f869318ec4e))
+    (pin "1" (uuid 4f619f4e-24d6-47a3-b991-e01840f8e719))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -4021,7 +3979,7 @@
     (property "Datasheet" "~" (at 193.04 26.035 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5fb4a3ba-a88f-4a83-bca1-a0094742a6ee))
+    (pin "1" (uuid 949d1a3e-5c84-4270-a9ff-7c0509fc7891))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -4046,7 +4004,7 @@
     (property "Datasheet" "~" (at 55.245 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1b49f00b-3228-4ccf-8e4a-d66101c68c83))
+    (pin "1" (uuid dd38ba7d-46b8-4ee5-aa9b-8e16d30fcf0f))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -4076,18 +4034,58 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 314.325 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f0d0bb2c-d949-4937-b2ec-bf394b38961b))
-    (pin "2" (uuid 05c05454-970f-4799-927e-074ffb04ad6c))
-    (pin "3" (uuid 346ac220-5628-4ce8-9dc8-dc36ae641dcd))
-    (pin "5" (uuid 29035bea-5b04-4331-91a7-0e1d5f2e312b))
-    (pin "6" (uuid 04f75dac-47ce-42fd-bf60-63b7cdd8b944))
-    (pin "7" (uuid 30421ff1-bbd1-4739-8dba-5353d9154ace))
-    (pin "4" (uuid 5f408813-38d8-4830-9706-5a7fd48b373c))
-    (pin "8" (uuid 1a4aa7f3-1499-452e-8277-bb96ae4d315d))
+    (pin "1" (uuid 32df5daf-4ca4-4c63-ae3e-f70af7b91294))
+    (pin "2" (uuid fd780e78-a41f-471d-acea-c45d5e6ee810))
+    (pin "3" (uuid 64477a0f-8c50-4698-aa3a-776d5daeac93))
+    (pin "5" (uuid 1a5c3b7e-68da-47f7-b887-858358e4a3c5))
+    (pin "6" (uuid e3cd6acd-a3c4-4d06-85b7-8e5fb21100af))
+    (pin "7" (uuid ecdf83b5-130f-4b9e-9676-ab631c71d090))
+    (pin "4" (uuid 45797191-9446-46f6-a23f-39941513ce70))
+    (pin "8" (uuid 2eb77620-75ee-4853-b1b7-02bb7b08250c))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
           (reference "U2") (unit 2)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 383.54 49.53 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2220b04f-79d0-461b-9b9a-5b561811e8b8)
+    (property "Reference" "#PWR064" (at 383.54 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 383.54 54.61 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 383.54 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 383.54 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a3aa1ab3-8696-4bce-864a-33389b061fa0))
+    (instances
+      (project "vlc_communication_simplified"
+        (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
+          (reference "#PWR064") (unit 1)
+        )
+      )
+      (project "bfsk_4046"
+        (path "/9dcd1980-5a1a-4070-88e4-d468275f3ef1"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "proj_td3"
+        (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
+          (reference "#PWR043") (unit 1)
+        )
+      )
+      (project "bfsk_4046_2"
+        (path "/d5148e0b-3134-42ff-aad3-d56b7c57352a"
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -4102,14 +4100,14 @@
     (property "Value" "D_Photo" (at 242.57 222.25 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 233.68 219.71 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 233.68 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 233.68 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eab5f0db-2d16-4d91-b165-30ddd0db7373))
-    (pin "2" (uuid 941be0d3-fd8d-469f-ac93-0a79a24e2a47))
+    (pin "1" (uuid 726c2259-4795-4c73-933b-af02eaf76062))
+    (pin "2" (uuid 99309ea6-b588-4f9d-9a67-145da8911e34))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -4128,14 +4126,14 @@
     (property "Value" "100k" (at 335.915 132.08 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 335.153 130.81 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 335.153 130.81 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 333.375 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9e0aa98d-051b-4a76-aaa4-e7c0d31fe9d5))
-    (pin "2" (uuid 0bf02c80-5ca8-4d36-83b6-8581dac728aa))
+    (pin "1" (uuid 1d5d327d-2aa8-4475-bcdf-d7df5da9832a))
+    (pin "2" (uuid 51257e1f-a71a-4de2-af23-e415413febb3))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -4160,20 +4158,20 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" (at 241.935 192.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 492c0745-fc79-4b85-a54d-a8977b175ace))
-    (pin "13" (uuid d4df4377-30b3-49cf-898e-cc503a36b519))
-    (pin "2" (uuid 47fff296-8b90-4905-a1a2-fe3856bd559a))
-    (pin "3" (uuid d77d3257-55ef-43df-b46f-5f81822f9672))
-    (pin "4" (uuid a2aa2e9d-467a-4856-aa38-079aafe66d64))
-    (pin "5" (uuid 0eca72c9-99dd-415c-8d70-078e691de548))
-    (pin "6" (uuid 24b5deca-4f10-4987-b646-daf95bfe02e5))
-    (pin "8" (uuid 38b393d2-6899-460c-9b8b-c7f87afaedac))
-    (pin "9" (uuid 719adcc4-b690-4ef0-9725-45de3d05f2d1))
-    (pin "10" (uuid 07ab4b02-66ef-4b65-a97a-2832d3e6da6f))
-    (pin "11" (uuid bb2e0796-d538-4c9a-8a0d-c163a1b9b902))
-    (pin "12" (uuid fce96fea-9a5c-4a5c-b9e0-3ac5bd187d5b))
-    (pin "14" (uuid 3aac659b-78f8-4b92-999e-2e99aac58696))
-    (pin "7" (uuid 97151ead-d1c2-4655-9193-8ad939206832))
+    (pin "1" (uuid 6d95b472-c9f8-4a1c-92dd-da04b7613d86))
+    (pin "13" (uuid 70714b97-3a96-48ee-a7cb-00aa3711cfe8))
+    (pin "2" (uuid 8244783e-309f-493a-92fc-2aafb6280e45))
+    (pin "3" (uuid 899deb6e-13c4-4926-8e41-aece279d0984))
+    (pin "4" (uuid dced1b4b-b645-4094-ade2-af242c56f601))
+    (pin "5" (uuid 80dbcf69-865b-45e0-ad51-282a0b21034a))
+    (pin "6" (uuid 30cdcec3-d6b1-4dac-9c14-efcedf8bbdee))
+    (pin "8" (uuid c4ea8c9d-439d-4988-ae91-4205207ccef4))
+    (pin "9" (uuid 42134578-a03e-4904-b735-63f0e743b87f))
+    (pin "10" (uuid de025590-ca27-4b38-ad1d-96259e70cafb))
+    (pin "11" (uuid 6d9286ae-5dbc-489c-8027-dbb8027f0e43))
+    (pin "12" (uuid 6e61988e-5e5d-4199-b789-810de3a8c236))
+    (pin "14" (uuid feb1920c-b6c5-4787-a3e6-3179bd8c1082))
+    (pin "7" (uuid a8db1842-faa2-42bf-9169-b0a476a9ee68))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -4198,7 +4196,7 @@
     (property "Datasheet" "" (at 177.8 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 703df817-91d7-4a66-8496-1a0ac62936fd))
+    (pin "1" (uuid 2a7fd6af-297d-4e41-b60a-5eb2300bbef4))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -4232,15 +4230,15 @@
     (property "Value" "10k" (at 315.595 217.17 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 315.595 220.345 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" (at 315.595 220.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 315.595 220.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2e3a898b-628a-4a35-9043-52c4eecb8523))
-    (pin "2" (uuid 91ea697a-2afb-45c2-8be5-56a36884d95f))
-    (pin "3" (uuid 9a6db474-5e2a-4c5c-ac63-af4452298c1f))
+    (pin "1" (uuid 72e3e70f-2c39-40b4-a690-66f36d4f9b70))
+    (pin "2" (uuid 337087d1-84b9-4cd5-8a99-d99150b0f873))
+    (pin "3" (uuid ac4d89a5-f255-43ad-9f08-70feacd73fbe))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -4265,20 +4263,20 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" (at 240.665 102.235 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b1f930e8-fd81-4188-ae35-42f26fed26dc))
-    (pin "13" (uuid 7fc1b76a-9c69-4301-9108-8b13ff6a4aaa))
-    (pin "2" (uuid cd4b614f-ffca-43ab-9e6b-46464ce2ee36))
-    (pin "3" (uuid 851937af-3c25-4580-abb1-55c74c9d3ebc))
-    (pin "4" (uuid 832f6807-0678-41ad-b6f1-41be1dc34ea8))
-    (pin "5" (uuid ac5391ed-1088-49fb-97a7-4633e17b8007))
-    (pin "6" (uuid 7bfaecd5-bd77-4fc3-8872-fb98ea828d93))
-    (pin "8" (uuid 5cda8fe6-6963-4b63-9e1f-e8b47568d0ff))
-    (pin "9" (uuid d80555fd-1fcf-419f-86c4-9701c541c6b0))
-    (pin "10" (uuid b0aaf48a-95b4-4b4f-b2b7-3a2bc0f844d7))
-    (pin "11" (uuid 96c8a134-5169-46b5-bc40-c1cf9ce88de0))
-    (pin "12" (uuid 84146c52-a233-4469-b6a8-2aecba0ac0f3))
-    (pin "14" (uuid 68c2db42-6cae-45a9-8a0d-4b3f9c83a7f8))
-    (pin "7" (uuid a3999c45-0b2c-4ac4-9605-97af038761ed))
+    (pin "1" (uuid e129fed1-0bba-4d4b-a593-4941988190bf))
+    (pin "13" (uuid 0e329487-2db9-4283-9ef6-49e4f31e02d9))
+    (pin "2" (uuid 009dfeb7-f44c-4739-9999-f25f6715a947))
+    (pin "3" (uuid 242c7973-c8a3-435e-b422-498dd491f652))
+    (pin "4" (uuid 4f0ec4f0-6285-49bb-b23a-381fca2b3ff8))
+    (pin "5" (uuid f83b8812-e9b1-4131-b3fd-d337068d0886))
+    (pin "6" (uuid 4b1e608c-ea99-48fa-995d-0f32de3554a7))
+    (pin "8" (uuid 7a9d1f01-485b-4fa1-973d-1032144dc6a7))
+    (pin "9" (uuid 36f86036-270d-44e0-a7b6-b8a22f8dc376))
+    (pin "10" (uuid 49d32427-c9f1-4381-8794-b4e28129e49f))
+    (pin "11" (uuid 367388f1-9789-45d2-9734-b0cc7cc7bc48))
+    (pin "12" (uuid db0c0a7e-79e8-44a1-b54d-10e44b8506b8))
+    (pin "14" (uuid 648d0773-0be0-4571-acee-3276f709e38d))
+    (pin "7" (uuid 96a13737-4dc6-46c1-b776-fe056226186d))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -4303,51 +4301,11 @@
     (property "Datasheet" "~" (at 301.625 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d8defe66-f780-466f-aa09-97394e3a9597))
+    (pin "1" (uuid b440348f-3c55-4411-9a4e-3977c494cb97))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
           (reference "TP14") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 367.665 29.845 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3660539d-5a2f-4d77-a2e6-bec16492eb9e)
-    (property "Reference" "#PWR05" (at 367.665 33.655 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 367.665 24.765 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 367.665 29.845 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 367.665 29.845 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c67254ab-cc74-400f-9dc9-97bd3ee9e8f8))
-    (instances
-      (project "vlc_communication_simplified"
-        (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
-          (reference "#PWR05") (unit 1)
-        )
-      )
-      (project "bfsk_4046"
-        (path "/9dcd1980-5a1a-4070-88e4-d468275f3ef1"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-      (project "proj_td3"
-        (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
-          (reference "#PWR038") (unit 1)
-        )
-      )
-      (project "bfsk_4046_2"
-        (path "/d5148e0b-3134-42ff-aad3-d56b7c57352a"
-          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -4362,18 +4320,59 @@
     (property "Value" "10k" (at 289.56 212.09 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 288.798 210.82 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 288.798 210.82 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 287.02 210.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1227ec21-f26c-470d-9211-1cb72981f98b))
-    (pin "2" (uuid fe132e19-30cc-4629-9681-cb9655d56979))
+    (pin "1" (uuid 76295d7d-422e-4a89-b6f9-c5958f7bec28))
+    (pin "2" (uuid 019871e9-b572-4908-894d-9a4ee57723ec))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
           (reference "R18") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 387.35 41.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3e8c31a3-da25-4f5b-bb6a-ab656a18671b)
+    (property "Reference" "C26" (at 388.62 39.37 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "2.2n" (at 388.62 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (at 388.3152 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 387.35 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0b99c3ab-3823-49c6-8d87-8a7fb2b1ce07))
+    (pin "2" (uuid e30f0d1f-8865-4acd-8482-8af9dafb0cc4))
+    (instances
+      (project "vlc_communication_simplified"
+        (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
+          (reference "C26") (unit 1)
+        )
+      )
+      (project "bfsk_4046"
+        (path "/9dcd1980-5a1a-4070-88e4-d468275f3ef1"
+          (reference "C2") (unit 1)
+        )
+      )
+      (project "proj_td3"
+        (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
+          (reference "C8") (unit 1)
+        )
+      )
+      (project "bfsk_4046_2"
+        (path "/d5148e0b-3134-42ff-aad3-d56b7c57352a"
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -4394,7 +4393,7 @@
     (property "Datasheet" "~" (at 41.275 228.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f26fdf0e-1975-47f3-85fe-670627733b29))
+    (pin "1" (uuid 9fbc7027-3af4-4487-8fbe-684c1db0d340))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -4424,61 +4423,18 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 254 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 686bbd9d-f487-451d-8e61-909a8003bfa7))
-    (pin "2" (uuid bae22ce7-6158-43ce-a11a-992a84ce63af))
-    (pin "3" (uuid 068be094-e1a2-49f9-ace2-14495db108de))
-    (pin "5" (uuid 218912ba-843d-48eb-b674-2dbf16331319))
-    (pin "6" (uuid bef6f212-06b0-4fbe-970a-1da0bdb4c573))
-    (pin "7" (uuid c1d6378d-a712-43cf-91ba-2936f2a227b6))
-    (pin "4" (uuid 873332de-9a78-4b31-a97b-d0731eff5370))
-    (pin "8" (uuid 7946c5c2-a38f-4174-8246-c463536a7466))
+    (pin "1" (uuid dd40ff25-ba82-4da2-ab5c-f21548c0a3fb))
+    (pin "2" (uuid 40e4f8ed-dc8f-49ca-83c5-e2cba613d135))
+    (pin "3" (uuid 2ffffffe-c8bc-46ab-a30f-01f8587c692d))
+    (pin "5" (uuid 4dc4e9c7-554f-4efa-aa64-781f6a4ee4c0))
+    (pin "6" (uuid 1904a864-3e6b-40d7-8e5d-bdf805c378cd))
+    (pin "7" (uuid 9223d902-687f-4532-a9b3-045b1ad3b193))
+    (pin "4" (uuid 556bd860-ffed-4cfc-a549-734f72c9c55d))
+    (pin "8" (uuid c6e1cdd5-896c-40cd-aa2f-16e18a86d04c))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
           (reference "U2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:LM324") (at 52.07 65.405 0) (unit 5)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 444c74eb-669c-4f24-b7c6-4afe033e1887)
-    (property "Reference" "U1" (at 50.8 64.135 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "LM324" (at 50.8 66.675 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" (at 50.8 62.865 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" (at 53.34 60.325 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b2dd1a64-15d1-40cc-b601-73bf5601f30e))
-    (pin "2" (uuid 6c1f5198-056c-4b5a-9279-949f2c7131cf))
-    (pin "3" (uuid c6c8e46d-9f32-4dad-a52c-c243fde4b491))
-    (pin "5" (uuid fcd6c3f2-7411-4b8a-af79-3996558f03e6))
-    (pin "6" (uuid 89815e99-7843-4856-8b3d-e2a605b8671e))
-    (pin "7" (uuid 19a84d19-862b-4628-9392-79da4a17989a))
-    (pin "10" (uuid c41900fb-5192-4aed-be9c-4f70bd8814a4))
-    (pin "8" (uuid da790bfd-8bf5-49ba-9682-18d36036b65c))
-    (pin "9" (uuid 29623a89-627e-4038-9294-655a8a23e8af))
-    (pin "12" (uuid 6800bc4d-b348-45b5-ac52-1838aff836a0))
-    (pin "13" (uuid 1463f83b-feb8-461b-bb40-feded79f2636))
-    (pin "14" (uuid e6267644-50c5-441c-b3d9-603e0f91620e))
-    (pin "11" (uuid 58b1296f-9e32-429b-9223-fa37a8ddeee9))
-    (pin "4" (uuid 03e935c9-893c-4782-9028-26a600c335ed))
-    (instances
-      (project "vlc_communication_simplified"
-        (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
-          (reference "U1") (unit 5)
-        )
-      )
-      (project "proj_td3"
-        (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
-          (reference "U4") (unit 5)
         )
       )
     )
@@ -4493,14 +4449,14 @@
     (property "Value" "1k" (at 299.72 216.535 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 299.72 222.123 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 299.72 222.123 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 299.72 220.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 57ff7486-e91b-476a-a257-91a917953ab6))
-    (pin "2" (uuid b56f56ef-08e5-4e24-9f05-b79f7c3aa591))
+    (pin "1" (uuid 7de17952-8f29-4639-9bcc-bea04a343d73))
+    (pin "2" (uuid aadb2a5e-8f06-41a3-b069-d2a9c362fef3))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -4525,7 +4481,7 @@
     (property "Datasheet" "~" (at 113.03 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0abe3b06-dd62-4d95-be3a-5aa668cb8d9f))
+    (pin "1" (uuid b69508d3-c2d1-4531-b4e0-3620f065b803))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -4535,6 +4491,46 @@
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
           (reference "TP3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 383.54 34.29 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4a02ebb8-d831-4015-9378-3d93b6763ecf)
+    (property "Reference" "#PWR063" (at 383.54 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 381 31.75 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 383.54 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 383.54 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 50297d64-f77c-4efe-9120-09323b41eb8b))
+    (instances
+      (project "vlc_communication_simplified"
+        (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
+          (reference "#PWR063") (unit 1)
+        )
+      )
+      (project "bfsk_4046"
+        (path "/9dcd1980-5a1a-4070-88e4-d468275f3ef1"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "proj_td3"
+        (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
+          (reference "#PWR042") (unit 1)
+        )
+      )
+      (project "bfsk_4046_2"
+        (path "/d5148e0b-3134-42ff-aad3-d56b7c57352a"
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -4555,7 +4551,7 @@
     (property "Datasheet" "" (at 74.93 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 08aedb9f-eabd-486a-8542-78578f0ca4b5))
+    (pin "1" (uuid b4e9cb5a-f65d-4295-8325-d8c8c5dd17d5))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -4601,8 +4597,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 48.26 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1b9da699-8b6f-48a6-8268-84b1e636ac3e))
-    (pin "2" (uuid 90c70bcb-bb3a-489e-b624-40c387c81e33))
+    (pin "1" (uuid 99a8f8b7-245a-4f38-9bd7-274d51ecf6e9))
+    (pin "2" (uuid 82d91d0d-a586-4973-b738-d7a3605dd0fb))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -4617,64 +4613,39 @@
     )
   )
 
-  (symbol (lib_id "4xxx:4066") (at 367.665 42.545 0) (unit 5)
+  (symbol (lib_id "4xxx:4066") (at 323.215 42.545 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e4a6b66-ee50-400a-8b1b-a0e6ae73eb37)
-    (property "Reference" "U1" (at 374.65 41.275 0)
+    (property "Reference" "U1" (at 330.2 41.275 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4066" (at 374.65 43.815 0)
+    (property "Value" "4066" (at 330.2 43.815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm" (at 367.665 42.545 0)
+    (property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm" (at 323.215 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" (at 367.665 42.545 0)
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" (at 323.215 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ea3d7216-cfe1-4d5c-a92d-a0c7b66784f0))
-    (pin "13" (uuid 850ded71-49b7-4d8b-962e-1f64f5d3acd2))
-    (pin "2" (uuid 87eda65b-15cc-490a-a9c3-24bad7b9c2bb))
-    (pin "3" (uuid 5c613d2e-a4e6-4537-8722-0190c77c4b98))
-    (pin "4" (uuid 2107fd29-d89c-47bc-9ee6-4fc6c0e602ef))
-    (pin "5" (uuid 37dec11f-bf09-4f0d-a9c5-9c25945f2da9))
-    (pin "6" (uuid 9d8515e8-1119-48d1-9bcc-838247540e11))
-    (pin "8" (uuid b69acb14-4eb4-4ac4-a1ee-fe199993642a))
-    (pin "9" (uuid 99fe8a06-4141-454a-abb8-379e9c5bd336))
-    (pin "10" (uuid 5cee743c-d5e7-4083-91d2-527c5fdd5718))
-    (pin "11" (uuid 712a971f-61ca-42aa-9da0-4a98fa50f8fb))
-    (pin "12" (uuid 0a14278b-03cb-4857-98c5-dde76c965031))
-    (pin "14" (uuid aa99815e-f0a3-477b-a54f-1b45e723e946))
-    (pin "7" (uuid 0635ff14-2c7f-4aa7-89ad-04ea915524e0))
+    (pin "1" (uuid ff202bb1-318d-4d39-88da-5765b637044d))
+    (pin "13" (uuid dd668ccc-7eeb-4318-9205-5db50221247f))
+    (pin "2" (uuid 14eeb3ec-52b4-4a8d-97b6-fd77cea74b86))
+    (pin "3" (uuid 3f14572d-e70a-4a91-bfa5-4c66a480bdcf))
+    (pin "4" (uuid 7575d480-0267-4fc1-ba0b-10d4299b3976))
+    (pin "5" (uuid 8934c785-e4bc-49b9-b4af-6f89679618a2))
+    (pin "6" (uuid 37cd4ed4-a18e-404c-9db8-cd9a60f2853e))
+    (pin "8" (uuid a464b19d-bfe1-4e64-a886-01750b7ca3c6))
+    (pin "9" (uuid 8e5264dd-1516-447d-90a4-b37f830225a6))
+    (pin "10" (uuid 056ef537-b163-4371-a152-fe849826d89f))
+    (pin "11" (uuid 7e1d0be6-0525-4213-bb42-fb92cbf761a1))
+    (pin "12" (uuid 86bb1c9a-90c1-4c63-a0c9-327d2b91e56d))
+    (pin "14" (uuid dafdca4c-5cd9-4a35-958d-d4a8c0af60fd))
+    (pin "7" (uuid 12ec9360-5332-4ee8-8e70-81dcc52d5e82))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
           (reference "U1") (unit 5)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 367.665 55.245 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 546302ba-0706-48ea-a2d9-42b8cee7cd1d)
-    (property "Reference" "#PWR039" (at 367.665 61.595 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 367.665 60.325 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 367.665 55.245 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 367.665 55.245 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 94f9a703-2756-4311-bd3b-cf701b869172))
-    (instances
-      (project "proj_td3"
-        (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
-          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -4695,8 +4666,8 @@
     (property "Datasheet" "~" (at 41.91 102.235 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f63b15dd-d801-4d11-b430-18f3e684feb7))
-    (pin "2" (uuid b8188881-721a-4b2b-9e0f-fad03956ef15))
+    (pin "1" (uuid 131e461d-e0c2-490e-ae57-9f620aca12cb))
+    (pin "2" (uuid bbb030cf-4ed2-4846-a35e-a2314ccf7840))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -4736,8 +4707,8 @@
     (property "Datasheet" "~" (at 31.75 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3812888b-ffe5-4969-924b-a770c8cd8421))
-    (pin "2" (uuid 8599b7f3-bc58-4c9f-8c8c-0256ca47c917))
+    (pin "1" (uuid 346ff15d-3f88-4676-9934-10cd195998a8))
+    (pin "2" (uuid b2130399-59f1-4258-a333-36807d0f04d4))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -4752,22 +4723,22 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 64.77 73.025 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 347.98 50.165 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56439fe9-1a19-418f-9579-8b4795a39e2d)
-    (property "Reference" "#PWR064" (at 64.77 79.375 0)
+    (property "Reference" "#PWR064" (at 347.98 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 64.77 78.105 0)
+    (property "Value" "GND" (at 347.98 55.245 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 64.77 73.025 0)
+    (property "Footprint" "" (at 347.98 50.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 64.77 73.025 0)
+    (property "Datasheet" "" (at 347.98 50.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c8b24edf-6ca9-4dca-b80c-5d5478082f13))
+    (pin "1" (uuid f8f7ca51-2acf-4be3-adf6-91dec173cdea))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -4807,7 +4778,7 @@
     (property "Datasheet" "" (at 107.95 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 12726522-da6d-438c-99a2-fece91dced4f))
+    (pin "1" (uuid 9115d036-e7b6-4990-b72e-59cd62e78fae))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -4847,7 +4818,7 @@
     (property "Datasheet" "" (at 41.91 189.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ebebaa6d-4c8a-4351-8fcc-908d053d8e66))
+    (pin "1" (uuid b3a370f3-f645-403e-8290-88c75e78811c))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -4887,7 +4858,7 @@
     (property "Datasheet" "~" (at 262.89 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 09b8df74-69c4-470a-87f5-b1070a7dd862))
+    (pin "1" (uuid 1f58a184-ed73-4f3f-ba62-148c47e7c0a5))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -4912,14 +4883,14 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 315.595 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2f4a8543-0110-405f-a69d-9d6e9ef1f637))
-    (pin "2" (uuid c1baf98f-1323-41e2-846c-66c2e30f28fc))
-    (pin "3" (uuid 2776e991-1e03-48be-8260-5a9d97423bb8))
-    (pin "5" (uuid 302a4662-984d-4380-afb2-3b2e82d1bca3))
-    (pin "6" (uuid ab7234a7-f228-4c26-9317-fa30a306c9e7))
-    (pin "7" (uuid 05d364c6-b36e-4dd3-8159-1eca478bce7b))
-    (pin "4" (uuid 3c094b72-51cb-4fca-95c7-02bfcac8b8e3))
-    (pin "8" (uuid 38fac4ee-735d-499c-baf6-ae6f87bdc6d1))
+    (pin "1" (uuid b1b6ecbc-c064-4f35-ad51-7447c13ec06d))
+    (pin "2" (uuid 98e72ab4-2ff4-42c6-9de5-e2d187035cfe))
+    (pin "3" (uuid 7613a633-6538-4952-9c35-854e713dfed1))
+    (pin "5" (uuid cdb330d3-6198-4047-9dd1-11e22381d0f7))
+    (pin "6" (uuid ee3f1635-5b77-461b-960a-5d65a466b272))
+    (pin "7" (uuid 119b3fcb-049e-4b25-a2bf-f13a95426d95))
+    (pin "4" (uuid e16bff9b-8dad-4f7e-9403-446b6662006f))
+    (pin "8" (uuid 0d3663cf-e4f1-446c-92e7-ca1da62d4051))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -4944,7 +4915,7 @@
     (property "Datasheet" "" (at 173.99 154.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eebdf5c1-a3fa-48c9-ae9a-4e8daf7a74c3))
+    (pin "1" (uuid 9ed26ce6-cacc-4707-b24a-f5ae3265f143))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -4968,15 +4939,15 @@
     (property "Value" "SolderJumper_3_Open" (at 301.625 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 301.625 200.66 0)
+    (property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" (at 301.625 200.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 301.625 200.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1264832f-881f-4310-bb51-c0c550e90839))
-    (pin "2" (uuid 30e8925c-2a7e-4b06-a818-32b799861d3d))
-    (pin "3" (uuid 339cb660-7244-4398-a55a-43da27f88f27))
+    (pin "1" (uuid aea4b409-dca5-425f-85f6-a8da8f021413))
+    (pin "2" (uuid 01a03c18-debe-453c-b0f5-8ec67510b92a))
+    (pin "3" (uuid e499cce5-4a75-41af-a602-e9e470165554))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -5001,9 +4972,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" (at 43.815 240.03 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 734b49c3-57b8-4023-bb38-b98b8fef0614))
-    (pin "2" (uuid cca7bd93-70ee-458a-8cc2-67fa29f230a3))
-    (pin "3" (uuid 83aa823f-8677-41ce-9291-31a142ed0343))
+    (pin "1" (uuid 6dbecedf-d51c-4f35-8d1e-aadaa5be3cd9))
+    (pin "2" (uuid 0a6709c2-93c2-4971-88ea-471185cbb7f1))
+    (pin "3" (uuid 30c7dc36-6fac-4ebe-84b5-0da2f01831a1))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -5033,7 +5004,7 @@
     (property "Datasheet" "" (at 41.91 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 04da6e88-9799-4342-a284-eec9b4bea393))
+    (pin "1" (uuid 5f2f7583-c36a-41ba-99db-e1da7ba03386))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -5073,7 +5044,7 @@
     (property "Datasheet" "~" (at 280.67 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fd37fa13-45d4-45f7-9b62-16dc9375a542))
+    (pin "1" (uuid 74b54400-3b0c-451a-bdad-06c6bda5c4a9))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -5098,8 +5069,8 @@
     (property "Datasheet" "~" (at 56.515 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9a96bf41-3fa7-4d0b-83d7-b112948678ed))
-    (pin "2" (uuid dc8a6cb4-5141-44e2-90a2-4c715d5e689a))
+    (pin "1" (uuid c128f4ea-3a31-45bd-9cb0-3f8fb16ea6ee))
+    (pin "2" (uuid 0672b74c-c978-4995-8a14-ce7587d09201))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -5124,22 +5095,22 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 386.08 50.165 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 365.76 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 66e2bd93-adbf-46b2-aebc-a85b3e8a80c8)
-    (property "Reference" "#PWR041" (at 386.08 56.515 0)
+    (property "Reference" "#PWR041" (at 365.76 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 386.08 55.245 0)
+    (property "Value" "GND" (at 365.76 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 386.08 50.165 0)
+    (property "Footprint" "" (at 365.76 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 386.08 50.165 0)
+    (property "Datasheet" "" (at 365.76 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 74234034-6f1b-4525-bd42-49c625aa9de2))
+    (pin "1" (uuid 14e1e7c7-3f43-49ae-8455-86b198522453))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -5164,7 +5135,7 @@
     (property "Datasheet" "" (at 140.97 194.945 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ac65b91a-26cf-4916-9daa-6be3699ed4e6))
+    (pin "1" (uuid a3e1cdd3-a1b3-419a-b156-1cb56a1c6278))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -5204,7 +5175,7 @@
     (property "Datasheet" "" (at 245.11 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 89cadc68-26c7-4d50-90f4-1268b9b030fa))
+    (pin "1" (uuid d28694b1-b214-445f-9d03-49d8969c18f0))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -5229,7 +5200,7 @@
     (property "Datasheet" "~" (at 188.595 26.035 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8e79d9d8-f078-4c4e-a921-db0ce2160074))
+    (pin "1" (uuid 658d0994-1140-46a8-9562-018155b6a9a5))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -5254,20 +5225,20 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" (at 240.665 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7d5aa4cb-0076-4a41-a024-9dda55413cd5))
-    (pin "13" (uuid 6a2ec589-8636-44bb-8b69-1648982b75aa))
-    (pin "2" (uuid 2ac13fde-0a5a-4ac0-9077-b80613039e43))
-    (pin "3" (uuid 35fa7d07-67f4-4e7e-bd76-d16bcade24d7))
-    (pin "4" (uuid 45e53e8f-a400-495a-a874-37f6e2b8b586))
-    (pin "5" (uuid 1ada87cb-317f-48f9-865e-2a6ac8bd29c4))
-    (pin "6" (uuid 1e77fd31-0de9-4dcc-978b-5e739f239f03))
-    (pin "8" (uuid 06a01066-f1b1-4bd7-8f81-4c0eff8fc58e))
-    (pin "9" (uuid a70e6c50-d21e-40ff-add5-00cb61b4f963))
-    (pin "10" (uuid ec6ca6a0-3406-4969-8b9a-9eaaec94c3b1))
-    (pin "11" (uuid d4dcfd8b-3b5b-47da-8397-fc21ced3ea77))
-    (pin "12" (uuid 784f2d54-7f42-415e-9798-4036ff1f338e))
-    (pin "14" (uuid f0651512-060a-4992-8a67-16aa2fe74810))
-    (pin "7" (uuid a8547dda-e502-4a85-8462-521fef055afd))
+    (pin "1" (uuid 434de534-3d96-41ea-91c2-9e284ab92717))
+    (pin "13" (uuid 0724cc06-b3df-4544-9ad6-df4febd94914))
+    (pin "2" (uuid 3773556e-8374-4386-986f-147a9b7d6cf4))
+    (pin "3" (uuid 34c92466-7526-4a91-949b-e5e926ca54a7))
+    (pin "4" (uuid 5f5bc1cb-0120-4d87-9eab-538c96779065))
+    (pin "5" (uuid ce90bd27-1554-4ea1-b3e3-013e53be3a36))
+    (pin "6" (uuid 7923ccf7-2b55-4343-90de-a0087863b8d1))
+    (pin "8" (uuid dbaf7310-96e8-4393-a728-92c5df9efff9))
+    (pin "9" (uuid 243c1f93-f4b1-4e9b-8155-f5e02dfc86e5))
+    (pin "10" (uuid 19c41526-6740-45f4-bfd8-7d2ab3fad85c))
+    (pin "11" (uuid 7adbaf3e-0f21-4559-9597-52cda74baf4f))
+    (pin "12" (uuid b6024c19-4bfc-4cc8-a1b4-2498cf4e75fc))
+    (pin "14" (uuid f45598ec-8c92-414c-8762-3badbae5a35a))
+    (pin "7" (uuid e4df6da3-8db0-45df-904c-e284c32e072b))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -5292,7 +5263,7 @@
     (property "Datasheet" "" (at 232.41 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ed416a6d-b7cf-4c35-ab73-242c882dc9a4))
+    (pin "1" (uuid ca5bf519-d756-465f-8c1b-50c92980162a))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -5317,11 +5288,80 @@
     (property "Datasheet" "~" (at 290.83 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8c3837ea-96b4-437c-9b5b-835227217970))
+    (pin "1" (uuid 827d312b-f2b9-4630-83dc-ed487b76b484))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
           (reference "TP13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MCU_ST_STM32F1:Bluepill_STM32F103") (at 157.48 99.695 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 72d1a8af-18a6-4e24-b4d9-c45dcc6b0271)
+    (property "Reference" "BLUEPILL1" (at 156.845 56.515 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "~" (at 165.1 75.565 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Module:Electrosmith_Daisy_Seed" (at 165.1 75.565 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 165.1 75.565 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3d70e296-3b07-4c32-a8ae-c6fc00dc4570))
+    (pin "10" (uuid 49c2d112-1539-4067-862f-36dadd499d81))
+    (pin "11" (uuid 58e1ec45-1947-4ac9-921f-5512d4386c72))
+    (pin "12" (uuid 520a3ffb-2900-44fe-a587-6b112daeaf76))
+    (pin "13" (uuid b58bdf93-c2c4-459a-ba17-8059d665ca93))
+    (pin "14" (uuid d9a0fa91-8675-4a0f-9aa5-8925324f0b3f))
+    (pin "15" (uuid 712caf7f-6a7e-49a9-98e6-dcdc6ebc42d0))
+    (pin "16" (uuid 3913cacb-4ee6-4d78-a7bb-043f4fccb611))
+    (pin "17" (uuid ee8fe6f9-e1db-4bce-a41e-3fed5a18d792))
+    (pin "18" (uuid b636186a-a031-4997-a393-78945ab85c8f))
+    (pin "19" (uuid 1137f4c5-bec7-46fd-970b-74a62424530d))
+    (pin "2" (uuid 4d200695-1307-4c73-b9f1-653bd58e83fe))
+    (pin "20" (uuid 900c73ce-5fdc-4248-a6bd-81c62218023e))
+    (pin "21" (uuid 21f7f665-ac05-49d5-9852-bc66b497db35))
+    (pin "22" (uuid e41d206d-1c75-4e88-8231-de1ebd4e02a9))
+    (pin "23" (uuid 3fc62f1c-a3d9-449b-8e88-5a7f90a2b6b3))
+    (pin "24" (uuid 86731886-eccb-40e0-8dfe-060c86c68721))
+    (pin "25" (uuid 2205134b-4a06-497a-9f9b-6a5037dc0513))
+    (pin "26" (uuid 7262abb2-6e9c-44a2-8cfb-3e3e31d8f99e))
+    (pin "27" (uuid 822d5131-2d2e-408a-9488-1d5bd33ba378))
+    (pin "28" (uuid 9d0bcd9a-182e-4796-b34f-86fd2c6f6569))
+    (pin "29" (uuid 7107f578-0128-4b31-91be-22bea2b67edc))
+    (pin "3" (uuid a9780a20-933d-4478-94da-c3657809df71))
+    (pin "30" (uuid 269c3f77-5459-4a10-b011-f3adb3e1bced))
+    (pin "31" (uuid 82172e8c-19c2-4e60-92a0-a8c7062e0772))
+    (pin "32" (uuid 0512010d-f3b8-4f83-a9c8-8faa8bd39eb1))
+    (pin "33" (uuid fd8e38bd-ef9a-4960-bcb6-adb14d45b1e8))
+    (pin "34" (uuid 928f5837-8842-4e0a-85d6-d97bc72d8b4e))
+    (pin "35" (uuid 6c3abca5-98aa-430e-bcec-0a27cfbdd0fb))
+    (pin "36" (uuid 609f5ebb-5c7a-4941-a97b-957402808923))
+    (pin "37" (uuid 3c465828-9e37-43c1-a42a-06bc80649170))
+    (pin "38" (uuid d5fc5fd1-7470-4ccd-973a-aef7fcaaee30))
+    (pin "39" (uuid 25de9836-cb1a-4271-9e52-39615b9c5291))
+    (pin "4" (uuid b76e6397-96df-43b5-b09b-61c451b0c5be))
+    (pin "40" (uuid f68b393f-f670-4c59-84b9-27ffd2633ee0))
+    (pin "5" (uuid 95452f60-b9ce-41af-abc4-20c5b496ba91))
+    (pin "6" (uuid 76046ab7-136f-49ac-90b2-234e5d50ffe1))
+    (pin "7" (uuid b5f60ae3-4fdb-4e16-84ce-cf5ef575ed2e))
+    (pin "8" (uuid 95b11ea8-7527-477b-8e61-4ad7ba2b1151))
+    (pin "9" (uuid 03d102a8-95fa-4726-a5f8-9ff7279cd73f))
+    (instances
+      (project "vlc_communication_simplified"
+        (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
+          (reference "BLUEPILL1") (unit 1)
+        )
+      )
+      (project "proj_td3"
+        (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
+          (reference "BLUEPILL2") (unit 1)
         )
       )
     )
@@ -5342,7 +5382,7 @@
     (property "Datasheet" "~" (at 41.91 116.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9d24f489-478c-4bd0-80a8-65be68d77505))
+    (pin "1" (uuid c38d5a5a-0104-4f81-9b7f-4f980edff081))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -5372,7 +5412,7 @@
     (property "Datasheet" "" (at 333.375 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 35222459-7bde-489b-b97a-be9c04b53ca6))
+    (pin "1" (uuid 6f11ac40-0b55-4519-a864-fb8b0b1d46cb))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -5391,18 +5431,50 @@
     (property "Value" "12p" (at 250.825 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 254.635 81.5848 0)
+    (property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" (at 254.635 81.5848 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 250.825 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 85747397-4233-465e-b5d2-782be412c3ea))
-    (pin "2" (uuid f36fc0bc-b85c-467e-bf0b-bfe7667bc581))
+    (pin "1" (uuid 4037881b-a40e-44aa-afed-be5356642bb4))
+    (pin "2" (uuid 1838f7a1-d691-4895-ba3a-c3a14cf0b231))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
           (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Amplifier_Operational:LM358") (at 368.3 78.105 0) (unit 3)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 774e71b7-f962-42ea-b718-60ebaa4315c2)
+    (property "Reference" "U3" (at 367.03 76.835 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "LM358" (at 367.03 79.375 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_SO:SO-8_5.3x6.2mm_P1.27mm" (at 368.3 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 368.3 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 630d50f8-3d39-4721-bb72-5b5c101acd81))
+    (pin "2" (uuid ff0f869d-0d09-436a-a1a9-823d4ff44508))
+    (pin "3" (uuid 09ff395c-5537-406c-a3d0-5ca3836ce37c))
+    (pin "5" (uuid 255996d1-243e-4ef6-b249-0c2cf3b3038e))
+    (pin "6" (uuid 32348114-e12d-49a2-99f0-de4e3cdadaab))
+    (pin "7" (uuid 83298a97-0bf2-4aff-aa44-8e10ea5b4af6))
+    (pin "4" (uuid c6622b37-81b6-4479-a11d-a631dfcdb397))
+    (pin "8" (uuid 7897d417-7f5a-476e-9db9-d7f674bd7c42))
+    (instances
+      (project "proj_td3"
+        (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
+          (reference "U3") (unit 3)
         )
       )
     )
@@ -5423,7 +5495,7 @@
     (property "Datasheet" "~" (at 55.88 182.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b344856d-6c87-4352-995d-574cbda125b5))
+    (pin "1" (uuid bba0f792-9709-4255-a3c0-4796bab0ffe5))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -5447,15 +5519,15 @@
     (property "Value" "50k" (at 330.835 123.19 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 333.375 121.92 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" (at 333.375 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 333.375 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1858a101-d6db-495f-b93c-1a2615170754))
-    (pin "2" (uuid 9977b541-dcb5-43e9-a1c9-50d3e263ce0d))
-    (pin "3" (uuid c5113e82-bc9a-44fb-9246-427f12ec2a81))
+    (pin "1" (uuid 42641d0b-c766-4f7a-8076-13c9a64e6255))
+    (pin "2" (uuid dccda9ef-a14f-4907-b1a6-2243187bfd55))
+    (pin "3" (uuid 6980442f-c5bd-4601-b164-5316221aaa6b))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -5474,14 +5546,14 @@
     (property "Value" "47k" (at 337.185 193.04 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 336.423 191.77 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 336.423 191.77 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 334.645 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e4e99594-c584-4916-988c-e42441a0785e))
-    (pin "2" (uuid 1ea38100-443c-45f7-9328-01ef68db3347))
+    (pin "1" (uuid 4dde3a06-8853-48dd-b7bc-d8a64fc1846f))
+    (pin "2" (uuid 32d17e89-bb82-431e-bdf8-b850af9007ca))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -5506,7 +5578,7 @@
     (property "Datasheet" "~" (at 103.505 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a9474d2c-2181-4634-8c88-24269d1be552))
+    (pin "1" (uuid b043481d-46c5-4478-a04b-04c255ff63ff))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -5536,7 +5608,7 @@
     (property "Datasheet" "" (at 177.8 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f4e35605-c6e3-481e-b56d-704997767cc5))
+    (pin "1" (uuid 6a155b0f-d55a-4229-bfae-1fbbb2d20168))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -5576,9 +5648,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" (at 44.45 182.245 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid c9668ac8-f167-4046-8ff4-206c917c7796))
-    (pin "2" (uuid 8b7b9a26-fed8-4ca2-8a0d-f0963467df66))
-    (pin "3" (uuid 7c6858ba-7597-45a3-b652-2e78c3425ff4))
+    (pin "1" (uuid 83397874-f589-44a4-9cda-c2cbdfce1104))
+    (pin "2" (uuid dd6495b7-f01f-4467-aa2e-e08cb2292ba5))
+    (pin "3" (uuid a58a9cee-eb46-424a-8860-57a8094b8296))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -5608,7 +5680,7 @@
     (property "Datasheet" "~" (at 274.955 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fc84f24f-b825-4ae2-9cbd-61a8c6607eea))
+    (pin "1" (uuid 8a4d0f97-dd32-4c4a-a5f3-4fd6fc817fea))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -5627,14 +5699,14 @@
     (property "Value" "1M" (at 260.35 188.595 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 260.35 194.183 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 260.35 194.183 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 260.35 192.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2e64f9e4-4c5a-4eb7-9561-f73d6c2b9d02))
-    (pin "2" (uuid ca3d6938-2b12-43af-8fcf-4acbbaf31412))
+    (pin "1" (uuid 44067d0f-113b-49d0-99a9-77ebf48d7015))
+    (pin "2" (uuid 138e69c1-75d8-4571-9d68-bcc6ab339dce))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -5659,7 +5731,7 @@
     (property "Datasheet" "" (at 333.375 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 448e5b04-e9a4-427f-88c2-7f2df7209981))
+    (pin "1" (uuid ad89a197-302f-4832-8a74-9567e2315453))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -5699,7 +5771,7 @@
     (property "Datasheet" "" (at 177.8 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2fa51eed-a372-4900-bce4-345181fe293a))
+    (pin "1" (uuid 6705dd08-d780-401e-bd84-ff8f2c745bc0))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -5723,15 +5795,15 @@
     (property "Value" "50k" (at 332.105 213.36 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 334.645 212.09 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" (at 334.645 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 334.645 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dc3e94fb-9869-49a2-b4f2-aca455cf9a45))
-    (pin "2" (uuid 35db7a3e-31ce-4144-aba3-5e480f9d07a1))
-    (pin "3" (uuid cd3f6aaf-53cd-40f3-aac1-100bdd52f5b2))
+    (pin "1" (uuid 14199010-697f-4981-a4cd-40e1765debfb))
+    (pin "2" (uuid f8103f7c-e282-43f7-aad8-4a33fe59b5f9))
+    (pin "3" (uuid a96c019a-62d3-4bf7-bfb1-3f8cf35838c2))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -5756,7 +5828,7 @@
     (property "Datasheet" "~" (at 45.72 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 79c20e04-da42-4c90-82e0-7cfe823ffdc8))
+    (pin "1" (uuid 43813544-5c1f-4b35-a96a-0dc07501642e))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -5775,16 +5847,16 @@
     (property "Value" "Conn_01x04_Pin" (at 173.355 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 172.72 31.75 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 172.72 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 172.72 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8501f895-c2a8-41bf-8701-807bdf1ae81c))
-    (pin "2" (uuid c695866f-51da-42fa-be4a-cc858c2ddeed))
-    (pin "3" (uuid 3a287755-1f5c-4b81-aec3-0c7030e0bdb3))
-    (pin "4" (uuid 47fbff3c-0f74-4e49-b26e-17b3c6f15e3c))
+    (pin "1" (uuid a4bfe9a9-dd63-4c26-9a1f-d0482a8c4010))
+    (pin "2" (uuid ed129561-a79e-4c03-9b10-6ba829340f1d))
+    (pin "3" (uuid 8db16cb0-72f3-4ebc-af46-35ce5d19f640))
+    (pin "4" (uuid b8606ce8-8521-401c-9f25-7d89213d2272))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -5809,7 +5881,7 @@
     (property "Datasheet" "" (at 137.16 133.985 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f32810c6-4563-4334-bdaf-c38211dee632))
+    (pin "1" (uuid 55c9d5ec-8d21-4516-8e28-7802b1c03b00))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -5833,15 +5905,15 @@
     (property "Value" "SolderJumper_3_Open" (at 299.085 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 299.085 110.49 0)
+    (property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" (at 299.085 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 299.085 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 65e0e1f5-c03b-4a03-b764-8681a11619ad))
-    (pin "2" (uuid 1779dd99-2d06-43e8-bcf3-9aef770e5df3))
-    (pin "3" (uuid 35ce5766-06da-4fab-9e60-a9a765c26fc3))
+    (pin "1" (uuid e16cee2e-613c-47f1-93c2-63a8fd02b4eb))
+    (pin "2" (uuid 94d63ea0-bbfb-4663-b63a-425778be1a71))
+    (pin "3" (uuid 6f1510bc-82ff-4a53-ac98-d0ec655163c3))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -5860,14 +5932,14 @@
     (property "Value" "47k" (at 335.915 102.87 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 335.153 101.6 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 335.153 101.6 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 333.375 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c89b53a0-421e-4333-bd01-1b16f0ab0f90))
-    (pin "2" (uuid 4d7690e5-3cd3-4fd2-b435-95103afaed9c))
+    (pin "1" (uuid d342965e-a931-4d41-a59c-b22c827dd19f))
+    (pin "2" (uuid 33fa946c-f80a-4af9-81e1-9fc86dd75ba2))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -5877,22 +5949,22 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 386.08 34.925 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 365.76 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a709177-3553-4d41-92b6-2e1ca884be84)
-    (property "Reference" "#PWR05" (at 386.08 38.735 0)
+    (property "Reference" "#PWR05" (at 365.76 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 386.08 29.845 0)
+    (property "Value" "+5V" (at 365.76 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 386.08 34.925 0)
+    (property "Footprint" "" (at 365.76 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 386.08 34.925 0)
+    (property "Datasheet" "" (at 365.76 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9a8efa67-19cb-4bc6-bfc5-eefd27020b94))
+    (pin "1" (uuid 6d0e4038-f015-4193-9bb6-e3136f0c3fe3))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -5932,8 +6004,8 @@
     (property "Datasheet" "~" (at 41.91 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 599da712-3147-449c-857d-fd3984136a24))
-    (pin "2" (uuid dc77aca1-cc1e-4045-bbfc-d64727c5af47))
+    (pin "1" (uuid 3580d559-6fd0-4cfc-aca6-ad96bc0af62b))
+    (pin "2" (uuid e2acfb2c-3c82-4c4c-b5e9-144836c0aea5))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -5973,7 +6045,7 @@
     (property "Datasheet" "" (at 292.735 132.715 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1896e80e-1612-40bc-98b3-edfc7d26ef0b))
+    (pin "1" (uuid aabec1f3-35ed-4f8a-8e78-2f87f4d5569a))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -5998,7 +6070,7 @@
     (property "Datasheet" "" (at 98.425 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e276425a-6224-496a-b3a1-f41682b3a378))
+    (pin "1" (uuid f236fc8e-44a7-4b6b-b9b6-cf2e86c06056))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -6032,14 +6104,14 @@
     (property "Value" "D_Photo" (at 241.3 132.08 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 232.41 129.54 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 232.41 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 232.41 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 51412884-c98a-4cc2-a106-d6e04d36d6cb))
-    (pin "2" (uuid 9d1a9090-63dd-41c3-ada9-63a8d2ab7bd7))
+    (pin "1" (uuid 1535fe51-0efb-4e85-9252-2cb277c5a7da))
+    (pin "2" (uuid 912919a9-713e-41f9-b6b5-6f21b66e5a8b))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -6049,22 +6121,22 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 64.77 57.785 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 347.98 34.925 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9d8bc091-d22a-4948-96d4-11f0e9cf42d8)
-    (property "Reference" "#PWR063" (at 64.77 61.595 0)
+    (property "Reference" "#PWR063" (at 347.98 38.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 62.23 55.245 0)
+    (property "Value" "+5V" (at 345.44 32.385 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 64.77 57.785 0)
+    (property "Footprint" "" (at 347.98 34.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 64.77 57.785 0)
+    (property "Datasheet" "" (at 347.98 34.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 45c60bf9-fd54-4a50-9361-ff72185b79e8))
+    (pin "1" (uuid 79937fb9-c6d9-4225-9488-9bae5accdf97))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -6104,7 +6176,7 @@
     (property "Datasheet" "" (at 177.8 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8226b1ab-4da9-4577-8cba-c0072c57a9e4))
+    (pin "1" (uuid 89617187-b708-49bf-9f32-3cb8b6978841))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -6144,7 +6216,7 @@
     (property "Datasheet" "" (at 41.275 247.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 92965d53-bf9d-458b-9368-0b4bb5612101))
+    (pin "1" (uuid d3a0bb88-6bb0-4147-80b5-7ec31f824775))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -6178,14 +6250,14 @@
     (property "Value" "1M" (at 259.08 98.425 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 259.08 104.013 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 259.08 104.013 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 259.08 102.235 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid daa80a71-0a9b-4ae5-90c4-0417d9014fe4))
-    (pin "2" (uuid 5b1ec24a-6b58-48ff-bcd8-505cba672a49))
+    (pin "1" (uuid 229a6862-77b6-468e-addc-2c2a1b36b115))
+    (pin "2" (uuid a230d39b-626f-44bc-9e6a-3dffa3822df6))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -6210,8 +6282,8 @@
     (property "Datasheet" "~" (at 41.275 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e32205ca-8c03-49b1-aeb3-d6c2ce50e8f0))
-    (pin "2" (uuid e6df4ec1-5f63-489d-85a0-e6b18591b564))
+    (pin "1" (uuid ade91b42-be55-44dd-9e8a-92c355a91095))
+    (pin "2" (uuid 1020ffad-4ec5-4aff-aabb-a4b65b6ad3f5))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -6241,7 +6313,7 @@
     (property "Datasheet" "" (at 287.02 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 46da9fd8-bfca-4c1c-a50d-710ba9463fed))
+    (pin "1" (uuid d87a366a-ab6f-4d75-9c2b-7e4b855ba913))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -6266,7 +6338,7 @@
     (property "Datasheet" "" (at 41.91 136.525 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6cddec24-e0a6-46ba-ac37-fc2c03342305))
+    (pin "1" (uuid 2c9049e5-c67c-4875-b072-11fe6735dfab))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -6300,14 +6372,14 @@
     (property "Value" "1M" (at 255.905 178.435 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 251.46 181.483 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 251.46 181.483 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 251.46 179.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 10721e58-e3c2-44c9-a629-04ecea509045))
-    (pin "2" (uuid 8332a126-5b7d-4ecc-a38d-9493108bb31b))
+    (pin "1" (uuid edf0a5a0-e516-4531-b667-9a936f81f356))
+    (pin "2" (uuid 19b75bf7-28f7-401d-a175-9ec076c9ee73))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -6326,14 +6398,14 @@
     (property "Value" "10k" (at 335.915 111.76 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 335.153 110.49 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 335.153 110.49 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 333.375 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f5efbccd-4f7d-4d86-be27-2e38486a7541))
-    (pin "2" (uuid eb997364-f8b1-43bb-be4f-cbcfe9b3d49e))
+    (pin "1" (uuid aed67186-5df4-4856-b7b4-51f7e12d9297))
+    (pin "2" (uuid 8d615027-a812-477d-8de9-11c6df20572f))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -6358,7 +6430,7 @@
     (property "Datasheet" "~" (at 261.62 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0ed65265-de8e-48c6-8685-352255d86524))
+    (pin "1" (uuid 04ea98bb-3269-447c-8ea5-7f102a82c1ce))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -6377,14 +6449,14 @@
     (property "Value" "10k" (at 288.29 121.92 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 287.528 120.65 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 287.528 120.65 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 285.75 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 28def557-e64e-47b5-a89b-75d9fff12ec8))
-    (pin "2" (uuid ba65ed3a-e53e-4b6a-a93b-36e1d3b5387d))
+    (pin "1" (uuid bf9520be-e74b-42ba-b634-8f362fb262f1))
+    (pin "2" (uuid 0aaaccd3-f490-48ce-b5d8-943f61cc31e0))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -6403,14 +6475,14 @@
     (property "Value" "470k" (at 260.35 200.66 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 260.35 206.248 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 260.35 206.248 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 260.35 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bd1b64fd-bc3d-48f9-b185-8d41ba5ceeda))
-    (pin "2" (uuid c6374f0d-34ec-4e7b-84b2-6bcf178afb1e))
+    (pin "1" (uuid a392db1f-3f76-498c-a3ac-248ff03f9571))
+    (pin "2" (uuid 35d60e95-dc94-43a5-91a1-9ffd2ab8e660))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -6435,7 +6507,7 @@
     (property "Datasheet" "" (at 334.645 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d93c3e3a-8372-4072-b31c-df62574fe58b))
+    (pin "1" (uuid e89eb793-a047-4aa1-8bf7-3c81e38c6499))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -6475,18 +6547,43 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 255.27 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 34348c1e-ecfb-4ee7-a9b8-b3df6c9b7097))
-    (pin "2" (uuid a9106581-e0ab-4ee1-92d8-7923fb00b258))
-    (pin "3" (uuid 40525975-19e2-4d42-9811-bd23c4e8d597))
-    (pin "5" (uuid 5cd962fc-e2ab-44aa-8a6b-37c6d5d8ae0c))
-    (pin "6" (uuid f0130632-3700-44c2-a70e-aaf87bce84b8))
-    (pin "7" (uuid 2cf47fb7-3846-41f5-bac8-e2a80c0f862b))
-    (pin "4" (uuid d1247b1f-da49-417e-b995-c2c39f12d4a1))
-    (pin "8" (uuid 2b13f73d-f44d-439f-987e-bd0be92fca7e))
+    (pin "1" (uuid b6e9554e-fbc7-4a6a-8224-3505efccd8aa))
+    (pin "2" (uuid f8a29e0c-aa01-4192-bf46-19c31150beb3))
+    (pin "3" (uuid fcf35a9b-0b89-4089-9273-e7569b7bc4ee))
+    (pin "5" (uuid ef100796-f85f-4928-926c-3608308d6093))
+    (pin "6" (uuid 5b8f5594-d993-4a2a-9f97-ba31f6a4b2c2))
+    (pin "7" (uuid 0b5457d4-6aab-41df-a82d-ee7897fe460e))
+    (pin "4" (uuid 244faae6-e90b-4ddd-a663-392820632aee))
+    (pin "8" (uuid a75c49df-a532-4d06-a175-f69797fc7a60))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
           (reference "U3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 365.76 85.725 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b81b010d-4715-4c8b-b644-ab688bfba91f)
+    (property "Reference" "#PWR039" (at 365.76 92.075 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 365.76 90.805 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 365.76 85.725 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 365.76 85.725 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 98eb10bd-fbd0-4499-babf-47834702e202))
+    (instances
+      (project "proj_td3"
+        (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -6507,7 +6604,7 @@
     (property "Datasheet" "~" (at 41.91 170.815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid da992c22-ab84-495b-869c-8dc1caec4072))
+    (pin "1" (uuid 6aedcd6a-75d4-41ce-b2ee-c2432652a059))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -6537,7 +6634,7 @@
     (property "Datasheet" "~" (at 108.585 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5918cab9-ca4e-49e8-94c8-481fe3a10d8c))
+    (pin "1" (uuid 34451df0-e58a-4327-8c24-f971bbef153e))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -6567,20 +6664,20 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" (at 241.935 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2d319664-2427-4c13-8288-489dc256b0bd))
-    (pin "13" (uuid c5260a44-b32b-4ffa-8a58-456f6142e007))
-    (pin "2" (uuid 22973980-8c6e-40de-bb84-4c7b52446745))
-    (pin "3" (uuid f341fdc8-cba1-49a8-8dbe-d1a266251470))
-    (pin "4" (uuid 064f2b48-b75c-4cce-859d-8f70bd56681f))
-    (pin "5" (uuid 530ee760-f8c4-4c70-8473-ff5ccceff51d))
-    (pin "6" (uuid 2df55dfa-9ea4-494c-90ef-51c3aed6e353))
-    (pin "8" (uuid ab5dc09b-404f-4767-8099-e9a93dd8ffb2))
-    (pin "9" (uuid 824d2d53-43ad-4732-9d45-97bec723d715))
-    (pin "10" (uuid 0b220c39-ded0-4f9c-afb7-19de23291ca5))
-    (pin "11" (uuid 6eaaee84-48b9-423b-baf2-0704f40eefff))
-    (pin "12" (uuid 95486c4b-97ad-40d0-bc5c-ced3c1102a74))
-    (pin "14" (uuid abb9e184-3c63-4b49-98e1-dafaa96ce674))
-    (pin "7" (uuid 41a4b14f-fcee-4fc7-a9f2-84d47045b76a))
+    (pin "1" (uuid 150c8ed9-6fd4-4651-a84d-0f8f551254da))
+    (pin "13" (uuid f5201cf4-0de7-42ad-814f-63cda20b097b))
+    (pin "2" (uuid 8d37e034-6981-4516-9bab-f618a31f1097))
+    (pin "3" (uuid a99ad1ff-05d8-47ff-b2c4-25b58580c375))
+    (pin "4" (uuid e8bb3d0b-e903-4a05-94a3-b9d1332a88d1))
+    (pin "5" (uuid 7c3def5d-6b01-49c6-9531-c3af674ded6b))
+    (pin "6" (uuid b3dd4533-1e77-4d76-a396-6633f6edbf18))
+    (pin "8" (uuid 7d37d065-fca7-447c-92ea-a15a2d165a9d))
+    (pin "9" (uuid b90c68a2-6d60-4bbf-9e08-3fc75810a7f8))
+    (pin "10" (uuid be0235e7-f9f2-498a-a491-632592e2fc36))
+    (pin "11" (uuid f82486bf-e1cb-47af-80a3-e18cd9dfe360))
+    (pin "12" (uuid b50758bc-803c-4b1b-a586-a80902fd21c5))
+    (pin "14" (uuid faee68a7-e736-4310-bcba-98870e764583))
+    (pin "7" (uuid 38df5b0f-f9ea-401f-bd32-154c14d7ef8c))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -6599,14 +6696,14 @@
     (property "Value" "470k" (at 259.08 110.49 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 259.08 116.078 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 259.08 116.078 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 259.08 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid df5521c3-23ec-4a87-9bb7-a43c6ed9ee92))
-    (pin "2" (uuid b1be4bf9-d9ca-461c-a534-40f155f17dd1))
+    (pin "1" (uuid 1de6ced7-207e-4418-8388-c7060378926d))
+    (pin "2" (uuid 0d4d7c87-723a-46cf-bd47-15cc87e5d84b))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -6616,23 +6713,23 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 60.96 65.405 0) (unit 1)
+  (symbol (lib_id "Device:C_Polarized") (at 344.17 42.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7e7c82e-4789-4cbd-9bb4-6ca681f0dea3)
-    (property "Reference" "C25" (at 55.88 62.865 0)
+    (property "Reference" "C25" (at 339.09 40.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C_Polarized" (at 48.26 67.945 0)
+    (property "Value" "C_Polarized" (at 331.47 45.085 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm" (at 61.9252 69.215 0)
+    (property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm" (at 345.1352 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 60.96 65.405 0)
+    (property "Datasheet" "~" (at 344.17 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 44534ba6-e698-4bfd-a769-7d7ce65b8a9a))
-    (pin "2" (uuid a0d13b96-d7eb-41c6-b0a6-72690b7b5431))
+    (pin "1" (uuid 2845a52d-8bce-4ebb-aa07-6b0556508690))
+    (pin "2" (uuid a8d02084-0630-4845-9573-efdb4a67c961))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -6667,26 +6764,26 @@
     (property "Datasheet" "~" (at 152.4 172.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1a9bf7ba-f6fe-41eb-aa15-a8bc37d118e2))
-    (pin "10" (uuid 75dfdd01-57da-42d9-942f-c2764e72577f))
-    (pin "11" (uuid f5420593-3937-446b-bd72-b94d23bda482))
-    (pin "12" (uuid d5d0dddd-d1a3-4bcf-8bc3-16bfdbbe71f0))
-    (pin "13" (uuid 0675960f-bc92-4d6b-a59b-bfb5b87daf8c))
-    (pin "14" (uuid 994197dd-9de6-4632-bb9f-fc62177284b8))
-    (pin "15" (uuid eee3553f-5085-4755-ab27-f8973bb6e361))
-    (pin "16" (uuid 73aa668c-e1b6-4033-8ab6-5fcac12c5170))
-    (pin "17" (uuid da94a8f1-3871-4cd0-994e-de06822da920))
-    (pin "18" (uuid 62ef57d8-012f-4e4a-a88c-474ae287c71f))
-    (pin "19" (uuid 7c77fae3-2896-4ccb-91e3-9ca2ddafd840))
-    (pin "2" (uuid 8f485de4-e1bb-4ab9-8682-5e04de6c54ce))
-    (pin "20" (uuid 0b2024cf-e7dc-47a9-9b37-ad61eb9c1c96))
-    (pin "3" (uuid a70e1bb5-0bd6-4f36-a117-f69ecfdf4b4a))
-    (pin "4" (uuid a38df43e-d463-42a1-ba2a-ccafb07ddd17))
-    (pin "5" (uuid 5c4f6cb4-bea6-434d-9991-012da60d2403))
-    (pin "6" (uuid 1158057b-fb5c-4662-bf52-bece0be892ba))
-    (pin "7" (uuid 7af29451-f28a-45b7-a608-3235a531fcd6))
-    (pin "8" (uuid 7b0652d9-bf51-4875-a842-d2f1e14365eb))
-    (pin "9" (uuid 17d134e3-9254-4da7-bce1-c06d51f91989))
+    (pin "1" (uuid 9c52dec1-be7b-4908-ac6e-16f09ab16fc1))
+    (pin "10" (uuid 87aec397-d526-47d0-8c22-9d8d2e6d27b2))
+    (pin "11" (uuid dc668068-5d39-489d-82a8-491aef243d11))
+    (pin "12" (uuid bd315a5d-0cf5-45f6-9341-4d102e05e552))
+    (pin "13" (uuid d2d8a88f-590c-40cb-b389-63dfa9da653c))
+    (pin "14" (uuid e17835ce-ccf8-4b92-a5cb-4e6b8cc98835))
+    (pin "15" (uuid 652f5b56-5f8b-446a-8917-102794b44836))
+    (pin "16" (uuid dfb5375a-7b46-4839-8ba2-a03d92f69b5a))
+    (pin "17" (uuid 5fb3db63-cbdb-4024-a9fb-5870008e155b))
+    (pin "18" (uuid 167f30e3-d3a6-4310-ae96-82646ddd77f9))
+    (pin "19" (uuid bfb58d89-21e4-4bd7-82ef-d2339d173ce3))
+    (pin "2" (uuid 32858b76-d539-41bd-af55-e6bb893f2a26))
+    (pin "20" (uuid 0865f4a0-7830-431c-b99c-b5e5f7e04d02))
+    (pin "3" (uuid 935b2297-636b-4b01-b115-3ae6c1a55406))
+    (pin "4" (uuid ca9edc9e-1fc7-4259-bbeb-6b38aa0a8ffd))
+    (pin "5" (uuid 21c62603-de43-4c22-9e7c-ec20fc3f01d8))
+    (pin "6" (uuid 0abf83d8-0344-4aac-b184-93a3b8f97bf3))
+    (pin "7" (uuid b2c0ccae-e5cf-4be1-9a31-6ce568e770b3))
+    (pin "8" (uuid 6ec5d3a3-88ac-4ed2-84ab-cd28cb8cde0a))
+    (pin "9" (uuid 4b6cbb05-a4a2-4cd3-b2fa-efb55f1b9de0))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -6716,7 +6813,7 @@
     (property "Datasheet" "" (at 233.68 226.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9c31d30d-dc32-4bc2-9892-93473e9d92a0))
+    (pin "1" (uuid 36e2af0a-b3e7-4837-998f-164271715c70))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -6741,7 +6838,7 @@
     (property "Datasheet" "" (at 137.16 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b058f257-8da2-4208-8041-c77c0167e989))
+    (pin "1" (uuid 5e8bd454-111f-432a-8611-2cd90cf4abbc))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -6775,14 +6872,14 @@
     (property "Value" "12p" (at 252.095 167.64 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 255.905 171.7548 0)
+    (property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" (at 255.905 171.7548 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 252.095 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 72952bfc-279d-43aa-945c-bcd1f472f8e4))
-    (pin "2" (uuid 81620b8c-2f29-45fd-abb8-76bd4db7befb))
+    (pin "1" (uuid af8e8555-9e91-4e92-a2ac-e27cf80c7b9a))
+    (pin "2" (uuid a3553294-8f4b-4197-8dfe-94e6d46cd12d))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -6807,7 +6904,7 @@
     (property "Datasheet" "" (at 140.97 197.485 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 845347d5-e78b-4e29-9748-30b20796d6e2))
+    (pin "1" (uuid 1f86a70f-0639-4269-9cbd-1f8e95345b4a))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -6831,14 +6928,14 @@
     (property "Value" "1M" (at 254.635 88.265 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 250.19 91.313 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 250.19 91.313 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 250.19 89.535 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 902d0fd3-6cbf-4ed9-8eca-6ce351f054b4))
-    (pin "2" (uuid 069025cd-9bde-4645-8c07-0d2ff60857c1))
+    (pin "1" (uuid d9d579c6-a87d-4e22-9eeb-f9de412eb658))
+    (pin "2" (uuid 7b573f3f-a3b8-4c26-8f1f-5298b0bdc97c))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -6863,7 +6960,7 @@
     (property "Datasheet" "" (at 294.005 222.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a11b467d-b2fd-4b11-bb6a-828ea2c00c3c))
+    (pin "1" (uuid e819d62b-7491-480a-b18e-85a9ae5f0c87))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -6888,8 +6985,8 @@
     (property "Datasheet" "~" (at 41.275 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9a7e777e-f3ae-489c-ba10-11c5e4b11a2d))
-    (pin "2" (uuid 6443acb6-c681-4267-a14c-dfdc2cda1743))
+    (pin "1" (uuid 9f764029-f206-45ac-8585-05608620a199))
+    (pin "2" (uuid 598e4826-0d10-4a1b-a0e6-256de8ffddc6))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -6923,14 +7020,14 @@
     (property "Value" "100n" (at 276.225 109.22 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 280.035 113.3348 0)
+    (property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" (at 280.035 113.3348 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 276.225 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cf394c1c-922c-472a-8457-b8eea9057638))
-    (pin "2" (uuid 1199ee2b-9d6d-4f93-80ee-417a85df7548))
+    (pin "1" (uuid f2f4738d-432d-48f6-a9b8-0dbfce198fdf))
+    (pin "2" (uuid 739b7656-2800-46b4-ab45-8e99fca25e98))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -6955,80 +7052,11 @@
     (property "Datasheet" "~" (at 280.67 183.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4b8e5fca-906d-4b11-b6bd-b06f531d2c56))
+    (pin "1" (uuid 46b76e08-dfdf-4696-9a4b-15c6b06eaec9))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
           (reference "TP18") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "MCU_ST_STM32F1:Bluepill_STM32F103") (at 157.48 99.695 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e4c833ce-3e7d-4136-b2f9-2a6f92aa1d75)
-    (property "Reference" "BLUEPILL1" (at 156.845 56.515 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 165.1 75.565 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm" (at 165.1 75.565 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 165.1 75.565 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4269237b-aaa4-4d28-842b-beb7297a9458))
-    (pin "10" (uuid b4c3d244-4439-4f35-b582-6e6018bb852c))
-    (pin "11" (uuid 434bd678-538f-457a-a151-3814a6ab91d3))
-    (pin "12" (uuid 6a81c229-9e0b-4d69-b670-bdb247cc7981))
-    (pin "13" (uuid c16ead48-124b-421e-8e9c-84ecad0fd5fa))
-    (pin "14" (uuid 913bac8d-a342-46d1-ae8e-201c552911ca))
-    (pin "15" (uuid 0627f452-63c3-491d-8c48-1be0c9fce02d))
-    (pin "16" (uuid 38726664-5cc5-4c77-b802-141289060cc5))
-    (pin "17" (uuid cf2990be-f338-41cb-8fc2-c4b9030ee9e1))
-    (pin "18" (uuid 7bc96a36-639d-4fdb-88de-5d4e59757be8))
-    (pin "19" (uuid b6698972-b238-49b3-ab18-36bda9a6135d))
-    (pin "2" (uuid 2b427eb5-7754-4de2-b2f2-c6ae4094e668))
-    (pin "20" (uuid 2bb3f696-a557-4c6f-b4ae-e6751ba822d9))
-    (pin "21" (uuid 2ba0f2fe-8b2d-4275-a2b6-c1b24433e593))
-    (pin "22" (uuid 0f39dadb-d6d6-4f49-871b-62f585a21d30))
-    (pin "23" (uuid 04a7f234-a008-49fe-8ca2-236ed3e3007a))
-    (pin "24" (uuid fefc4d47-cd88-49c2-8ef2-ee6ff29abbde))
-    (pin "25" (uuid a60655aa-5283-4f92-b865-0ce4ce043623))
-    (pin "26" (uuid fa709f8e-724e-4d89-b84b-02a92cc832c1))
-    (pin "27" (uuid 07001895-d77f-430f-b8ea-33f6cf9484f8))
-    (pin "28" (uuid d5ffa041-7a2a-4376-b6f6-58fc801a3f5e))
-    (pin "29" (uuid 1044f5bc-bc1f-430e-8970-f27bb6a045fa))
-    (pin "3" (uuid ab905115-5f97-4a7d-b76e-ec45d4cb340a))
-    (pin "30" (uuid a4d271f8-4980-4c63-bdee-6d0ec038a7a1))
-    (pin "31" (uuid 6380b865-cf68-4a00-a498-e59919b34f14))
-    (pin "32" (uuid bdbb7cfa-94a4-4318-82e6-27e830906053))
-    (pin "33" (uuid f78a4dd7-3e1a-44e6-a4bc-1ee26517958a))
-    (pin "34" (uuid be354986-db19-4ce5-8f80-af0371a6859f))
-    (pin "35" (uuid 9a057942-8d07-45c2-bf7c-cf42d44e122a))
-    (pin "36" (uuid a5bc47d8-1d5a-4ab5-b5d6-0312cc1e6e7f))
-    (pin "37" (uuid 0eeaed91-a8db-4cb3-99d1-1867fc8cc4a7))
-    (pin "38" (uuid 4e146920-f23c-45b0-afe0-e0873d5d8ec8))
-    (pin "39" (uuid 62bcfdc7-bfc1-4a76-83cf-0375d4cf85f1))
-    (pin "4" (uuid 8b170b43-0c08-4c71-b5b8-dcaf8e698971))
-    (pin "40" (uuid 64e7e474-58b7-4519-b54e-450561bc8fbc))
-    (pin "5" (uuid a5bc132e-3748-4d2b-be7f-6b1195c6cc32))
-    (pin "6" (uuid 76026cd2-1626-4c12-a413-cabbea9075eb))
-    (pin "7" (uuid c75c8cfe-c297-4731-adf9-f4c24c72c4e8))
-    (pin "8" (uuid e82cb5ac-935d-4a56-888f-596c10cfe1ed))
-    (pin "9" (uuid e47a1ff6-ecca-436d-9aef-691ce2faaf12))
-    (instances
-      (project "vlc_communication_simplified"
-        (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
-          (reference "BLUEPILL1") (unit 1)
-        )
-      )
-      (project "proj_td3"
-        (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
-          (reference "BLUEPILL1") (unit 1)
         )
       )
     )
@@ -7049,7 +7077,7 @@
     (property "Datasheet" "" (at 41.91 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f336e680-18ef-48af-99ee-af833ea5ea20))
+    (pin "1" (uuid b34f9b86-d549-4c9a-8da9-72210ec27751))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -7089,8 +7117,8 @@
     (property "Datasheet" "~" (at 48.26 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3adb0ccd-053a-47bb-bb3a-6fc7252f09f8))
-    (pin "2" (uuid dbbb2b48-7866-4fa2-b2d2-12102a05cf56))
+    (pin "1" (uuid eb090c44-bfeb-4880-8d69-aa05bfbb54ac))
+    (pin "2" (uuid e72a3e89-da34-4158-acf2-8d70a0b2f087))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -7120,8 +7148,8 @@
     (property "Datasheet" "~" (at 57.15 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5773914a-9043-479e-92b1-0d40560d395c))
-    (pin "2" (uuid bef7f56b-9147-4a33-9278-970df4c246e3))
+    (pin "1" (uuid edbeb696-435e-4107-8134-cd568e3fb47e))
+    (pin "2" (uuid 67f11efa-edfe-4bd9-a160-0ffaf8234810))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -7161,7 +7189,7 @@
     (property "Datasheet" "" (at 41.275 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3806caab-9fac-44c8-8140-6328989a514d))
+    (pin "1" (uuid ca197bd6-cf4f-4a8f-92d9-93a9f554d627))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -7201,7 +7229,7 @@
     (property "Datasheet" "" (at 285.75 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2ed40846-0c5b-4b88-8f91-c4d94039e447))
+    (pin "1" (uuid 34badca3-4e96-4abd-89d3-ad93c61e5786))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -7226,7 +7254,7 @@
     (property "Datasheet" "" (at 103.505 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3ba5c32b-0839-4325-88d9-032ab69b1094))
+    (pin "1" (uuid a9ba119c-fe17-4f9b-bf30-05c06f908070))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -7266,7 +7294,7 @@
     (property "Datasheet" "~" (at 276.86 178.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ca09b475-ff8f-48d5-a6ed-f102603e4f83))
+    (pin "1" (uuid 70aaaede-488a-477f-87c2-b4a124ebeaa5))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -7291,7 +7319,7 @@
     (property "Datasheet" "" (at 334.645 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d32f3c10-755d-4b36-9bd9-8ea403cb8f3a))
+    (pin "1" (uuid 6bcf6aff-8934-425d-8bb2-696c2076fe35))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -7316,7 +7344,7 @@
     (property "Datasheet" "" (at 137.16 126.365 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5a7b88d3-8342-4a9f-abe4-27eb5ad2efdf))
+    (pin "1" (uuid f0db34b8-319e-4731-be6c-0b71eac840bb))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -7356,9 +7384,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" (at 44.45 128.905 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 4f2b2788-7a84-43d8-9938-2180c4cf4f74))
-    (pin "2" (uuid e004acf0-8f20-42d3-b789-d8e8bd3f5597))
-    (pin "3" (uuid b1dd390d-9c8e-4a09-adc7-8ae07f926d3d))
+    (pin "1" (uuid 23d58a81-f511-4654-a7bd-35387383c36a))
+    (pin "2" (uuid 75fb1b14-87c5-4a83-bf8c-340dac01d3f6))
+    (pin "3" (uuid 2469caa3-55c9-4c75-8c78-addbe3847111))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -7373,29 +7401,29 @@
     )
   )
 
-  (symbol (lib_id "Amplifier_Operational:LM358") (at 388.62 42.545 0) (unit 3)
+  (symbol (lib_id "Amplifier_Operational:LM358") (at 368.3 41.91 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5403951-a566-4599-8ab3-0ab26cef542d)
-    (property "Reference" "U2" (at 387.35 41.275 0)
+    (property "Reference" "U2" (at 367.03 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "LM358" (at 387.35 43.815 0)
+    (property "Value" "LM358" (at 367.03 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:SO-8_5.3x6.2mm_P1.27mm" (at 388.62 42.545 0)
+    (property "Footprint" "Package_SO:SO-8_5.3x6.2mm_P1.27mm" (at 368.3 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 388.62 42.545 0)
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 368.3 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2d7beb09-b2e1-4d42-a96b-9cbf38ee9e8e))
-    (pin "2" (uuid 12120ca3-dcc9-4d54-96cf-df687aa61e68))
-    (pin "3" (uuid 8f5c9a85-4d2b-489d-bc08-a77ea4088a3f))
-    (pin "5" (uuid fa49b920-9222-4e5b-84ac-843ac2547f8c))
-    (pin "6" (uuid cda1271c-e0c2-420a-b500-9405b144a0db))
-    (pin "7" (uuid 71323d41-cbf8-471d-9f32-e18e937904c2))
-    (pin "4" (uuid 64ab6f82-14c0-488b-904d-8dba363c9040))
-    (pin "8" (uuid bab89b1f-6af4-4b1e-9543-4230e4d89d27))
+    (pin "1" (uuid 630d50f8-3d39-4721-bb72-5b5c101acd81))
+    (pin "2" (uuid ff0f869d-0d09-436a-a1a9-823d4ff44508))
+    (pin "3" (uuid 09ff395c-5537-406c-a3d0-5ca3836ce37c))
+    (pin "5" (uuid 255996d1-243e-4ef6-b249-0c2cf3b3038e))
+    (pin "6" (uuid 32348114-e12d-49a2-99f0-de4e3cdadaab))
+    (pin "7" (uuid 83298a97-0bf2-4aff-aa44-8e10ea5b4af6))
+    (pin "4" (uuid baac778d-cdfb-4609-9197-6b73275e9967))
+    (pin "8" (uuid e7d14edc-768c-4ec8-8f1a-88e23aea9cfb))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -7414,15 +7442,15 @@
     (property "Value" "10k" (at 314.325 127 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 314.325 130.175 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" (at 314.325 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 314.325 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b96f190a-3263-495c-ac5d-98a69891c9ac))
-    (pin "2" (uuid 7ac2782b-983d-46ab-99e4-58fc725abbf9))
-    (pin "3" (uuid 5c0364f8-6e60-436f-9f31-0b9ef87887b6))
+    (pin "1" (uuid 42d51b15-51f2-4365-a298-3fc89d2583b7))
+    (pin "2" (uuid 1f65d8c0-41d7-4d6e-a9f7-631c56b45f29))
+    (pin "3" (uuid 0a57b54f-b3f3-4166-b65c-127e59c1fa0d))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -7441,14 +7469,14 @@
     (property "Value" "100n" (at 277.495 199.39 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 281.305 203.5048 0)
+    (property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" (at 281.305 203.5048 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 277.495 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 03ade115-88ff-4b4a-98de-3cb63595d64f))
-    (pin "2" (uuid 79e12c4d-af56-4e24-9d57-1bf866574dc4))
+    (pin "1" (uuid 087f5cca-ccec-4188-8757-f73a473562d4))
+    (pin "2" (uuid 26b433e7-0b88-42a0-8368-076dca17ba9d))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -7473,7 +7501,7 @@
     (property "Datasheet" "" (at 74.93 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d210e419-e4cc-4b81-8ab5-107d12ce0696))
+    (pin "1" (uuid 86afe3b2-009e-445e-8cf7-b3024a81952a))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
@@ -7488,6 +7516,46 @@
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
           (reference "#PWR024") (unit 1)
+        )
+      )
+      (project "bfsk_4046_2"
+        (path "/d5148e0b-3134-42ff-aad3-d56b7c57352a"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 365.76 70.485 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fd30adea-14a6-48a9-8c31-550eaf9f38ca)
+    (property "Reference" "#PWR05" (at 365.76 74.295 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 365.76 65.405 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 365.76 70.485 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 365.76 70.485 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5ce84a23-9eea-41c7-8680-45a9f03018ca))
+    (instances
+      (project "vlc_communication_simplified"
+        (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "bfsk_4046"
+        (path "/9dcd1980-5a1a-4070-88e4-d468275f3ef1"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "proj_td3"
+        (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
+          (reference "#PWR038") (unit 1)
         )
       )
       (project "bfsk_4046_2"
@@ -7513,7 +7581,7 @@
     (property "Datasheet" "~" (at 329.565 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1368716d-c1d5-4218-ad5c-6093faa3e3be))
+    (pin "1" (uuid 12657221-546e-471b-9fea-3a9bf6278ccd))
     (instances
       (project "proj_td3"
         (path "/a66b0880-bb41-4bd1-b757-72618c016a53"
@@ -7538,8 +7606,8 @@
     (property "Datasheet" "~" (at 57.15 182.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 871fe564-a7e5-471b-8b64-5f5ef2c22544))
-    (pin "2" (uuid b440007e-f8a1-4abc-ac30-a9c34122c8c7))
+    (pin "1" (uuid 54ab63ea-c5df-4638-a14a-893ad40efa4d))
+    (pin "2" (uuid 63f11248-3287-474b-90f9-5d514a884a97))
     (instances
       (project "vlc_communication_simplified"
         (path "/83dce440-838f-4ba6-964c-5d71caee4e71"
